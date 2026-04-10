@@ -1,100 +1,104 @@
-# Satoshi Stylometry
+# Satlock
 
-A BERT-based stylometry classifier that identifies whether a piece of text was written by Satoshi Nakamoto, trained on the complete corpus of Satoshi's public writings.
+A stylometry tool that measures how closely a piece of writing matches Satoshi Nakamoto's writing style. Uses classical linguistic feature analysis — not neural networks — trained on the largest known corpus of Satoshi's public and private writings.
 
 ## Try it
 
-**[Live Demo on HuggingFace Spaces](https://huggingface.co/spaces/thestalwart/satoshi-stylometry)** - Paste any text and get a Satoshi probability score.
+**[Live Demo on HuggingFace Spaces](https://huggingface.co/spaces/thestalwart/satlock)** — Paste any text and see how it scores.
 
-## How it works
+## What makes Satoshi's writing distinctive
 
-We fine-tuned [ModernBERT-base](https://huggingface.co/answerdotai/ModernBERT-base) as a binary classifier (Satoshi vs. not-Satoshi) on the complete public record of Satoshi Nakamoto's writings.
+We extracted 126 stylometric features from 565 verified Satoshi texts and compared them to 2,873 texts from his contemporaries in the early Bitcoin community. The most distinctive markers:
 
-### Data
+| Feature | Satoshi | Others | Difference |
+|---|---|---|---|
+| **Contraction rate** ("don't", "it's") | 3.0% | 1.8% | 62% more |
+| **First person ("I/me/my")** | 1.2% | 1.8% | 31% less |
+| **Sentence length** | 13.9 words | 17.3 words | Shorter |
+| **Use of "if"** | 1.1% | 0.7% | 62% more |
+| **Paragraph count** | 2.9/post | 1.8/post | 64% more |
 
-**Satoshi corpus (572 texts):**
-- 539 BitcoinTalk forum posts (2009-2010)
-- 18 Cryptography mailing list emails (2008-2009)
-- 11 Bitcoin-list emails (2009-2010)
-- 4 P2P Foundation posts (2009)
+Satoshi writes shorter sentences, uses more contractions, reasons conditionally with "if", and refers to himself less than his peers. He explains systems rather than sharing personal opinions.
 
-All sourced from [satoshi.nakamotoinstitute.org](https://satoshi.nakamotoinstitute.org/).
+## Candidate comparison
 
-**Non-Satoshi corpus (1,546 texts):**
-- 761 posts from the Cryptography mailing list (same era, same community)
-- 785 BitcoinTalk forum posts from other early users
+We scored real scraped writings from commonly named Satoshi candidates:
 
-All texts were cleaned (metadata headers removed, quoted text stripped) and chunked into 50-400 word pieces, yielding 452 Satoshi chunks and 1,304 non-Satoshi chunks.
+| Writer | Mean Score | Texts Analyzed |
+|---|---|---|
+| **Satoshi Nakamoto** | **89.6%** | **417** |
+| Wei Dai | 20.4% | 10 |
+| Hal Finney | 16.3% | 112 |
+| Gavin Andresen | 14.4% | 151 |
+| Nick Szabo | 9.2% | 57 |
 
-### Training
+None of the candidates score close to Satoshi's baseline. Nick Szabo — often cited as a leading candidate — scores the lowest, with a much more academic writing style.
 
-- **Model:** ModernBERT-base (149M parameters)
-- **GPU:** NVIDIA A10G on [Modal](https://modal.com)
-- **Epochs:** 10
-- **Training time:** ~4 minutes
-- **Class-weighted loss** to handle the 1:3 class imbalance
+## Data
 
-### Results
+**Satoshi corpus: 565 texts, 75,939 words** across 8 sources:
 
-**Golden held-out set (350 texts never seen during training):**
+| Source | Texts | Words |
+|---|---|---|
+| BitcoinTalk posts | 394 | 38,457 |
+| Martti Malmi private emails | 136 | 22,706 |
+| Cryptography mailing list | 18 | 5,140 |
+| Bitcoin whitepaper | 1 | 3,413 |
+| Wei Dai emails | 2 | 2,244 |
+| Hal Finney emails | 1 | 1,743 |
+| Bitcoin-list emails | 9 | 1,320 |
+| P2P Foundation | 4 | 916 |
 
-| Metric | Score |
-|--------|-------|
-| **Accuracy** | 99.1% (347/350) |
-| **Satoshi recall** | 97.8% (88/90) |
-| **Non-Satoshi recall** | 99.6% (259/260) |
-| **F1** | 0.983 |
+**Non-Satoshi corpus: 2,873 texts, 261,836 words** from 536 authors in the early Bitcoin community, scraped from the exact same 258 BitcoinTalk threads Satoshi participated in (eliminating topic as a confound).
 
-**Confusion matrix:**
+All texts cleaned through the same pipeline: metadata stripped, quoted text removed, signatures removed, URLs removed, deduped, cross-contamination checked.
 
-| | Predicted Not-Satoshi | Predicted Satoshi |
-|---|:---:|:---:|
-| **Actual Not-Satoshi** | 259 | 1 |
-| **Actual Satoshi** | 2 | 88 |
+## Method
 
-**Confidence distribution:**
-- Satoshi texts: mean probability 0.978 (very confident)
-- Non-Satoshi texts: mean probability 0.004 (very confident it's NOT Satoshi)
+SVM classifier on 126 handcrafted stylometric features:
+- Function word frequencies (100+ common words)
+- Punctuation profile (commas, semicolons, dashes, parentheses, etc.)
+- Sentence statistics (length, variance, count)
+- Vocabulary richness (type-token ratio, hapax legomena)
+- Contraction patterns
+- Person reference rates (first/second/third person)
+- Hedging and certainty markers
 
-Only 3 misclassifications:
-- 2 very short/generic Satoshi posts that lacked his distinctive style
-- 1 non-Satoshi post about building Bitcoin on FreeBSD that mimicked his technical voice
-
-### Caveats
-
-This model detects **writing style**, not identity. A high score means "this text is stylistically similar to Satoshi's known writings." It does not prove authorship. The model was trained on crypto/technical forum posts, so it may be less reliable on text from very different domains.
+Cross-validated F1: **0.68** on clean, decontaminated data (no format shortcuts — validated by 8 statistical checks including a naive BoW baseline test).
 
 ## Project structure
 
 ```
 satoshi-stylometry/
 ├── data/
-│   ├── raw/                    # Original scraped data
-│   │   ├── satoshi_raw.json    # 572 Satoshi writings
-│   │   └── non_satoshi_raw.json # 1,546 non-Satoshi writings
-│   └── processed/              # Cleaned, chunked, and split
-│       ├── train.json          # 1,056 training chunks
-│       ├── val.json            # 175 validation chunks
-│       ├── test.json           # 175 test chunks
-│       ├── golden.json         # 350 held-out golden set
-│       ├── golden_satoshi.json # 90 held-out Satoshi texts
-│       └── golden_non_satoshi.json # 260 held-out non-Satoshi texts
+│   ├── v5_clean/               # Final cleaned data
+│   │   ├── satoshi_clean.json  # 565 Satoshi texts
+│   │   └── non_satoshi_clean.json # 2,873 non-Satoshi texts
+│   ├── candidates/             # Scraped candidate writings
+│   └── raw/                    # Raw scraped data
 ├── scraping/
-│   ├── scrape_satoshi.py       # Scrape from Nakamoto Institute
-│   ├── scrape_non_satoshi_fast.py # Concurrent mailing list + forum scraper
-│   └── normalize_and_split.py  # Text cleaning, chunking, train/test splits
+│   ├── scrape_all_satoshi.py   # All Satoshi sources (NI + Malmi + whitepaper + emails)
+│   ├── scrape_v4_non_satoshi.py # Same-thread non-Satoshi collection
+│   ├── scrape_candidates.py    # Candidate writings
+│   ├── clean_v5.py             # Universal cleaning pipeline
+│   ├── normalize_v4.py         # Normalization + chunking
+│   └── validate_v4.py          # 8 statistical validation checks
+├── analysis/
+│   ├── stylometry_profile.py   # Satoshi writing fingerprint
+│   ├── svm_classifier.py       # SVM classifier (best model)
+│   ├── score_real_candidates.py # Candidate scoring on real texts
+│   └── full_classifier.py      # Full feature family comparison
+├── space/
+│   └── app.py                  # Satlock Gradio app
 └── training/
-    ├── train_modal.py          # Modal GPU training script
-    └── upload_to_modal.py      # Upload data to Modal volume
+    └── train_modal.py          # Earlier BERT experiments (superseded)
 ```
 
-## Reproducing
+## Caveats
 
-1. Install dependencies: `pip install beautifulsoup4 requests`
-2. Scrape data: `python scraping/scrape_satoshi.py && python scraping/scrape_non_satoshi_fast.py`
-3. Normalize: `python scraping/normalize_and_split.py`
-4. Upload to Modal: `python training/upload_to_modal.py`
-5. Train: `modal run training/train_modal.py`
+This tool detects **writing style similarity**, not identity. A high score means stylistically similar to Satoshi's known writings — it does not prove authorship. The classifier works best on 50+ word passages about technical topics. It may be less reliable on very different domains or very short texts.
+
+The F1 of 0.68 is honest — achieved on clean data with no format contamination. Earlier BERT-based versions achieved 99%+ but were exploiting metadata artifacts, not actual writing style.
 
 ## License
 
