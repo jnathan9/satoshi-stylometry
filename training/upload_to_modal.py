@@ -11,7 +11,14 @@ def main():
     files = ["train.json", "val.json", "test.json", "golden.json",
              "golden_satoshi.json", "golden_non_satoshi.json"]
 
-    with vol.batch_upload() as batch:
+    # Remove existing files first
+    for f in files:
+        try:
+            vol.remove_file(f"/{f}")
+        except Exception:
+            pass
+
+    with vol.batch_upload(force=True) as batch:
         for f in files:
             path = os.path.join(DATA_DIR, f)
             if os.path.exists(path):

@@ -1,3152 +1,2144 @@
 [
   {
-    "text_preview": "When you send to a bitcoin address, you don't connect to the recipient.\u00a0 You send the transaction to",
+    "text_preview": "Agree.\u00a0 Certainly too trivial to clutter the user's attention with.\nI changed it to every 30 minutes",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999996423721313,
+    "satoshi_prob": 1.0,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "Bitcoin client and website translation\n49\nFrom:\nsatoshi\nSubject:\nBitcoin client and website translat",
+    "text_preview": "It was able to reproduce this.\u00a0 The database doesn't like the relative path.\n\"bitcoind -datadir=./su",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999994039535522,
+    "satoshi_prob": 1.0,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "Any backup process/procedure would just be a stopgap until there's time to properly work on coding s",
+    "text_preview": "That's right.\u00a0 You don't need to be re-broadcasting your transactions for it to work.\nWhen any node ",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999995231628418,
+    "satoshi_prob": 1.0,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "I don't get how it let you send if it was not matured.\u00a0 Your balance would have been lower than the ",
+    "text_preview": "Version 0.3.18\nVersion 0.3.18\nChanges:\n- Fixed a wallet.dat compatibility problem if you downgraded ",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999996423721313,
+    "satoshi_prob": 0.9999998807907104,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "Version 0.3.9 rc1, please test\n355\nFrom:\nsatoshi\nSubject:\nVersion 0.3.9 rc1, please test\nDate:\nAugus",
+    "text_preview": "Port forwarding forwards a port to one computer.\u00a0 It tells the router which computer handles connect",
+    "true_label": "satoshi",
+    "pred_label": "satoshi",
+    "satoshi_prob": 1.0,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": ""
+  },
+  {
+    "text_preview": "Version 0.3.12\nVersion 0.3.12\nVersion 0.3.12 is now available.\nFeatures:\n- json-rpc errors return a ",
+    "true_label": "satoshi",
+    "pred_label": "satoshi",
+    "satoshi_prob": 1.0,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": ""
+  },
+  {
+    "text_preview": "Checking the block chain on load\nChecking the block chain on load\nSVN rev 139 does a basic check of ",
+    "true_label": "satoshi",
+    "pred_label": "satoshi",
+    "satoshi_prob": 1.0,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": ""
+  },
+  {
+    "text_preview": "That's the first time I've seen this error.\nHow many blocks do you have? (in the status bar)\nYou sho",
+    "true_label": "satoshi",
+    "pred_label": "satoshi",
+    "satoshi_prob": 1.0,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": ""
+  },
+  {
+    "text_preview": "I integrated the hashmeter idea into the SVN version.\u00a0 It displays khash/s in the left section of th",
+    "true_label": "satoshi",
+    "pred_label": "satoshi",
+    "satoshi_prob": 1.0,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": ""
+  },
+  {
+    "text_preview": "The resync idea would go through your wallet and check it against the block index to find any transa",
     "true_label": "satoshi",
     "pred_label": "satoshi",
     "satoshi_prob": 0.9999997615814209,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "0.3.13 RC1 for Windows, please test\n466\nFrom:\nsatoshi\nSubject:\n0.3.13 RC1 for Windows, please test\nD",
+    "text_preview": "Freenode is too visible, right in the middle of where all those users and moderators are hanging out",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999998807907104,
+    "satoshi_prob": 1.0,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "Bitcoin open source implementation of P2P currency\n4\nFrom:\nSatoshi Nakamoto\nSubject:\nBitcoin open so",
+    "text_preview": "Thank you for limiting flood tests to the testnet.\nVersion 0.3.15 combines several features to help ",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999995231628418,
+    "satoshi_prob": 1.0,
     "correct": true,
-    "source": "post_p2pfoundation",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "Repost: Linux/UNIX compile\n12\nFrom:\nsatoshi\nSubject:\nRepost: Linux/UNIX compile\nDate:\nNovember 27, 2",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999908208847046,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "The SVN version now uses IRC first and if that fails it falls back to a hardcoded list of seed nodes",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999998807907104,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "You figured it out faster than I could post a reply. \u00a0\nIt looks like laszlo's build of Berkeley DB h",
+    "text_preview": "Obviously it's a bug that it repeats the header.\nI was trying to follow the 1.0 spec:\nhttp://json-rp",
     "true_label": "satoshi",
     "pred_label": "satoshi",
     "satoshi_prob": 0.9999997615814209,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "So that was responsible for keeping blocks from downloading?\nThe link: \"Win32 CPU Cycles vs 'Live Pr",
+    "text_preview": "It can't do arbitrary actions remotely. \u00a0Maybe some of you are responding to other posters who sugge",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999995231628418,
+    "satoshi_prob": 1.0,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "Here is a paper that claims to find SHA-1 collisions in 2^52 crypto operations. And optimally secure",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999988079071045,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "I uploaded windows 0.3.1 rc1 and linux 0.3.1 rc2 to SourceForge and updated the links on the homepag",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999992847442627,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "The reason I didn't use protocol buffers or boost serialization is because they looked too complex t",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999986886978149,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "Added some DoS limits, removed safe mode (0.3.19)\n543\nFrom:\nsatoshi\nSubject:\nAdded some DoS limits, ",
+    "text_preview": "There is no way for the software to automatically know if one chain is better than another except by",
     "true_label": "satoshi",
     "pred_label": "satoshi",
     "satoshi_prob": 0.9999997615814209,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "Quote from: RHorning on July 15, 2010, 10:29:28 PM\nI don't see either happening, although it did get",
+    "text_preview": "Repost: Bitcoin Maturation\nRepost: Bitcoin Maturation\nbitcoinbitcoin:\nBitcoin Maturation\nFrom the us",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999974966049194,
+    "satoshi_prob": 1.0,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "Faster initial block download (5x faster)\n258\nFrom:\nsatoshi\nSubject:\nFaster initial block download (",
+    "text_preview": "Version 0.3.17\nVersion 0.3.17\nVersion 0.3.17 is now available.\nChanges:\n- new getwork, thanks m0mchi",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999998807907104,
+    "satoshi_prob": 1.0,
     "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "That's surprising that we've never heard of that before now.\nMaybe you're the first person to ever r",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999986886978149,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "Quote from: gavinandresen on July 23, 2010, 03:11:45 PM\nQuestion for everybody:\u00a0 should I add a sect",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999978542327881,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "Quote from: llama on July 01, 2010, 10:21:47 PM\nHowever, if something happened and the signatures we",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999996423721313,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "Bitcoin P2P e-cash paper\n11\nFrom:\nSatoshi Nakamoto\nSubject:\nBitcoin P2P e-cash paper\nDate:\nNovember ",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9991958737373352,
-    "correct": true,
-    "source": "email_cryptography",
-    "author": ""
-  },
-  {
-    "text_preview": "When using proxy port 9050, it will only make one attempt to connect to IRC, then give up, since it ",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999997615814209,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "Quote from: knightmb on July 15, 2010, 07:37:10 PM\nOn Windows, the priority of the Coin Generation i",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999992847442627,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "At the moment, it always assumes the incoming port is 8333, so it would tell other bitcoin nodes to ",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999998807907104,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "1-3:\nFor that level of anonymity you need to connect through TOR, which will be possible with versio",
-    "true_label": "satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.002560870721936226,
-    "correct": false,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "Quote from: ShadowOfHarbringer on October 02, 2010, 01:00:07 PM\nThat's nice, however the automatic 4",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999996423721313,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "Then all the CPU time is the generate thread, which definitely runs at the lowest possible priority,",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999982118606567,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "I'll start thinking about how to do this.\nAt the moment, you can kind of use -connect.\u00a0 You can use ",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999997615814209,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "It seems like you're inclined to assume everything is wrong more than is actually so.\nWriting the bl",
-    "true_label": "satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.002238720888271928,
-    "correct": false,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "There's a separate public/private keypair for every bitcoin address.\u00a0 You don't have a single privat",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999997615814209,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "That's a good idea.\u00a0 I'm not sure where exactly to fit that in, but it could certainly calculate the",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999997615814209,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "Repost: How anonymous are bitcoins?\n10\nFrom:\nsatoshi\nSubject:\nRepost: How anonymous are bitcoins?\nDa",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999998807907104,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "[OLD THREAD] Bitcoin version 0.2 development status\n14\nFrom:\nsatoshi\nSubject:\n[OLD THREAD] Bitcoin v",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999998807907104,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "SheriffWoody:\nBitcoin addresses you generate are kept forever. \u00a0A bitcoin address must be kept to sh",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999998807907104,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "I came to agree with Gavin about whitelisting when I realized how quickly new transaction types can ",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999998807907104,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "Probably best to disable receiving by IP unless you specifically intend to use it.\u00a0 This is a lot of",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999995231628418,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "Quote from: bytemaster on August 05, 2010, 04:46:52 PM\nRight now the transaction fee address is left",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.999998927116394,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "If the only library is closed source, then there's a project to make an open source one.\nIf the only",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999994039535522,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "Quote from: knightmb on August 15, 2010, 10:59:04 PM\n[edit]\n Just saw your post, I'll build one to l",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999995231628418,
-    "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
     "text_preview": "MinGW on Windows has trouble compiling it:\ng++ -c -mthreads -O2 -w -Wno-invalid-offsetof -Wformat -g",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999629259109497,
+    "satoshi_prob": 0.9999599456787109,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "The performance numbers posted from a VIA C7's hardware SHA-256 weren't astronomical.\u00a0 Only in the 1",
+    "text_preview": "If the only library is closed source, then there's a project to make an open source one.\nIf the only",
+    "true_label": "satoshi",
+    "pred_label": "satoshi",
+    "satoshi_prob": 0.9999960660934448,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": ""
+  },
+  {
+    "text_preview": "Bitcoin 0.3 released!\nBitcoin 0.3 released!\nAnnouncing version 0.3 of Bitcoin, the P2P cryptocurrenc",
     "true_label": "satoshi",
     "pred_label": "satoshi",
     "satoshi_prob": 0.9999998807907104,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "Repost: Request: Make this anonymous?\n7\nFrom:\nsatoshi\nSubject:\nRepost: Request: Make this anonymous?",
+    "text_preview": "A second version would be a massive development and maintenance hassle for me. \u00a0It's hard enough mai",
     "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999992847442627,
-    "correct": true,
-    "source": "post_bitcointalk",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.23005375266075134,
+    "correct": false,
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "Just a random streak of bad luck.\u00a0 It looks steady to me.\nCompetition doesn't have an effect until t",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999996423721313,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "If you do, I think it should be a very brief, single paragraph article like 100 words or less that s",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999949932098389,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "Version 0.3.2.5 -- please test!\n264\nFrom:\nsatoshi\nSubject:\nVersion 0.3.2.5 -- please test!\nDate:\nJul",
+    "text_preview": "14/02/2010 0000000065465700000000000000000000000000000000000000000000000000\n2009\u00a0 \u00a0 \u00a0 \u00a0 1.00\n30/12/2",
     "true_label": "satoshi",
     "pred_label": "satoshi",
     "satoshi_prob": 0.9999997615814209,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "We should queue up a supply of pre-made addresses in the wallet to use when a new address is needed.",
+    "text_preview": "The order matters not to the program, but it matters to me maintaining it. \u00a0If it jumbles the order ",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999988079071045,
+    "satoshi_prob": 0.8666412234306335,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "Quote from: bdonlan on July 15, 2010, 11:27:14 PM\nin 120DPI mode. \nWhat is \"120DPI mode\"?\u00a0 Is that a",
+    "text_preview": "[OLD THREAD] Bitcoin version 0.2 development status\n[OLD THREAD] Bitcoin version 0.2 development sta",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999991655349731,
+    "satoshi_prob": 1.0,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "Quote from: ByteCoin on November 13, 2010, 11:55:11 PM\nOf course, if the network is not being floode",
+    "text_preview": "Still need to know what's the most typical settings file format on Linux.\u00a0 Is there a standard file ",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999996423721313,
+    "satoshi_prob": 1.0,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "It sets different priorities for each thread. \u00a0The generate threads run at PRIO_MIN. \u00a0The other thre",
+    "text_preview": "That's a good point, I believe you could run with generation off if you don't have SSE2.\nHow about a",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999978542327881,
+    "satoshi_prob": 0.9999990463256836,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "Search debug.log for \"proof-of-work found\".\u00a0 If you find any, then check for any errors right after ",
+    "text_preview": "It's not the downloading that takes the time, it's verifying and indexing it.\nBandwidthwise, it's mo",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999986886978149,
+    "satoshi_prob": 1.0,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "0.3.2 has some security safeguards to lock in the block chain up to this point and limit the damage ",
+    "text_preview": "SHA-256 is very strong.\u00a0 It's not like the incremental step from MD5 to SHA1.\u00a0 It can last several d",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999983310699463,
+    "satoshi_prob": 1.0,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "Quote from: DataWraith on May 19, 2010, 07:52:42 PM\nCan I just butt in with a question on why that i",
+    "text_preview": "Right. \u00a0Otherwise we couldn't have a finite limit of 21 million coins, because there would always ne",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999991655349731,
+    "satoshi_prob": 0.9999998807907104,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "That big of a difference in speed, by a factor of 4 or 6, feels like it's likely to be some quirky w",
+    "text_preview": "Thanks for the feedback on this.\nOne thing we could do is lower the outbound connections from 15 to ",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999983310699463,
+    "satoshi_prob": 1.0,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
     "text_preview": "I have the beginning of something like this. \u00a0It's mostly like what Gavin described.\nSome more rpc i",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999997615814209,
+    "satoshi_prob": 1.0,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "What you can currently do is set \"Minimize to the tray\" in options, then run it as \"bitcoin -min\" so",
+    "text_preview": "You're connecting to yourself.\u00a0 All 21 connection attempts were to a node with version 31300 (0.3.13",
+    "true_label": "satoshi",
+    "pred_label": "satoshi",
+    "satoshi_prob": 1.0,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": ""
+  },
+  {
+    "text_preview": "It's unrelated.\u00a0 There wasn't anything there when I started.\nThe price of .com registrations is lowe",
+    "true_label": "satoshi",
+    "pred_label": "satoshi",
+    "satoshi_prob": 1.0,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": ""
+  },
+  {
+    "text_preview": "I'm happy if someone with artistic skill wants to contribute alternatives. \u00a0The icon/logo was meant ",
+    "true_label": "satoshi",
+    "pred_label": "satoshi",
+    "satoshi_prob": 1.0,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": ""
+  },
+  {
+    "text_preview": "0.3.13 RC1 for Windows, please test\n0.3.13 RC1 for Windows, please test\n0.3.13 release candidate, to",
     "true_label": "satoshi",
     "pred_label": "satoshi",
     "satoshi_prob": 0.9999998807907104,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "Quote from: soultcer on February 12, 2010, 02:31:50 PM\nIf you want, I can provide you with a precomp",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999996423721313,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "Warning: don't use -server or bitcoind where you web browse (v0.3.2 and lower)\n247\nFrom:\nsatoshi\nSub",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999997615814209,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "I uploaded an updated bitcoin.po for 0.3.1 attached to this message:\nhttp://bitcointalk.org/index.ph",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999996423721313,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "You were looking at the wrong code. \u00a0Here's the code that applies:\nCode:\nbool CBlock::CheckBlock() c",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999998807907104,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "It can be phased in, like:\nif (blocknumber > 115000)\n\u00a0\u00a0 \u00a0maxblocksize = largerlimit\nIt can start bei",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999988079071045,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "It does in fact download 500 blocks at a time, then the counter counts one at a time as it verifies ",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999996423721313,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "It must be a rounding error when getinfo converts to floating point to return the JSON-RPC result.\u00a0 ",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999978542327881,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "Quote from: Ground Loop on August 18, 2010, 11:14:26 PM\nAny non-Mac i5 love?\nWindows i5 64-bit got s",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999996423721313,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "Quote from: m0mchil on November 20, 2010, 10:16:19 AM\nupdated to SVN 186\nThanks m0mchil for keeping ",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999996423721313,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "Was that the only thing I broke in the OSX build?! \u00a0Does it actually work after just that one change",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999997615814209,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "That's a good optimisation.\u00a0 I'll add that next time I update SVN.\nMore generally, we could also con",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999998807907104,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "Quote from: sirius-m on June 10, 2010, 01:51:16 PM\nYou can of course use services like vekja.net or ",
+    "text_preview": "Still thinking this idea through...\nThe only job the network needs to do is to tell whether a spend ",
     "true_label": "satoshi",
     "pred_label": "satoshi",
     "satoshi_prob": 0.9999994039535522,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "Bitcoin P2P e-cash paper\n1\nFrom:\nSatoshi Nakamoto\nSubject:\nBitcoin P2P e-cash paper\nDate:\nOctober 31",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999995231628418,
-    "correct": true,
-    "source": "email_cryptography",
-    "author": ""
-  },
-  {
-    "text_preview": "We can't safely do OP_BLOCKNUMBER. \u00a0In the event of a block chain reorg after a segmentation, transa",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999997615814209,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "boost::program_options has the same \"key=value\" format.\u00a0 Gavin pointed out we can use it in a simple",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999955892562866,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "Bitcoin open source implementation of P2P currency\n2\nFrom:\nSatoshi Nakamoto\nSubject:\nBitcoin open so",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999996423721313,
-    "correct": true,
-    "source": "post_p2pfoundation",
-    "author": ""
-  },
-  {
-    "text_preview": "Quote from: Xunie on May 26, 2010, 12:50:04 AM\nCan't we force a user to use a new address for receiv",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999997615814209,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "The formula is based on the time it takes to generate 2016 blocks. \u00a0The difficulty is multiplied by ",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.999998927116394,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "Quote from: knightmb on July 30, 2010, 08:04:19 PM\nSo that last command should simply be\nsudo apt-ge",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999997615814209,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "But 1.0 sounds like the first release.\u00a0 For some things newness is a virtue but for this type of sof",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999988079071045,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "Quote from: theymos on October 03, 2010, 08:09:51 PM\nArtForz is already running with no fees, and he",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999996423721313,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "Thanks for the feedback on this.\nOne thing we could do is lower the outbound connections from 15 to ",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999988079071045,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "Quote from: eurekafag on October 04, 2010, 10:55:56 AM\nWhere can I find the latest English .po file ",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.9999994039535522,
-    "correct": true,
-    "source": "post_bitcointalk",
-    "author": ""
-  },
-  {
-    "text_preview": "It ramps up the fee requirement as the block fills up:\n<50KB \u00a0free\n50KB \u00a0 0.01\n250KB \u00a00.02\n333KB \u00a00.",
+    "text_preview": "Version 0.3.15\nVersion 0.3.15\nVersion 0.3.15 is now available.\nChanges:\n- paytxfee switch is now per",
     "true_label": "satoshi",
     "pred_label": "satoshi",
     "satoshi_prob": 0.9999998807907104,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "Bitcoin v0.1 released\n17\nFrom:\nSatoshi Nakamoto\nSubject:\nBitcoin v0.1 released\nDate:\nJanuary 16, 200",
-    "true_label": "satoshi",
-    "pred_label": "satoshi",
-    "satoshi_prob": 0.986661970615387,
-    "correct": true,
-    "source": "email_cryptography",
-    "author": ""
-  },
-  {
-    "text_preview": "The design outlines a lightweight client that does not need the full block chain.\u00a0 In the design PDF",
+    "text_preview": "Does it happen every time you run it, or just happened once at some random time?\nI've never seen tha",
     "true_label": "satoshi",
     "pred_label": "satoshi",
     "satoshi_prob": 0.9999996423721313,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "Microsoft Security Essentials Live Protection is blocking your communication with the network.\u00a0 You ",
+    "text_preview": "Sample account system using JSON-RPC needed\nSample account system using JSON-RPC needed\nWe need some",
     "true_label": "satoshi",
     "pred_label": "satoshi",
     "satoshi_prob": 0.9999998807907104,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "Quote from: Red on August 12, 2010, 01:10:19 AM\nQuote from: satoshi on August 11, 2010, 09:07:59 PM\n",
+    "text_preview": "After it initially tries incorrectly to set itself to the lowest priority, the generate thread only ",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999995231628418,
+    "satoshi_prob": 0.5722447633743286,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "It's not safe to use listtransactions this way.\nI know I've been criticized for being reluctant abou",
+    "text_preview": "I committed a fix for 64-bit compile and some fixes to support wxWidgets 2.9.0.\nThere was one compil",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999997615814209,
+    "satoshi_prob": 0.999993085861206,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "OK, I made a build target bitcoind that only links wxBase and does not link GTK.\u00a0 Version 0.2.7 on S",
+    "text_preview": "On Ubuntu 10.04 it wouldn't remove the taskbar button cleanly, so I made it leave it there.\nBut now ",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999994039535522,
+    "satoshi_prob": 0.9999998807907104,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "I don't think you have a particular problem, I think your system is laggy because you're running a l",
+    "text_preview": "In the SVN version, if a transaction requires a transaction fee, it says\n\"This transaction is over t",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.999998927116394,
+    "satoshi_prob": 1.0,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "Quote from: sirius-m on August 11, 2010, 02:01:53 AM\nI added to the FAQ the warning to back up after",
+    "text_preview": "1-3:\nFor that level of anonymity you need to connect through TOR, which will be possible with versio",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999997615814209,
+    "satoshi_prob": 0.9999376535415649,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "Quote from: knightmb on July 25, 2010, 07:44:02 PM\nIf I figure out that Public Key 123456 generates ",
+    "text_preview": "Bouncing between 0 and 2 connections could be if it's connecting to itself.\u00a0 Are you using the \"-con",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999991655349731,
+    "satoshi_prob": 1.0,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "Can you provide more details about what removing DB_PRIVATE does?\nI can't remember if I had a specif",
+    "text_preview": "Proof-of-work difficulty increasing\nProof-of-work difficulty increasing\nWe had our first automatic a",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999992847442627,
+    "satoshi_prob": 0.9895715713500977,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "JSON-RPC programming tips using labels\n107\nFrom:\nsatoshi\nSubject:\nJSON-RPC programming tips using la",
+    "text_preview": "Command Line and JSON-RPC\nCommand Line and JSON-RPC\nVersion 0.2.6 on SVN can now run as a daemon and",
     "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.9999114274978638,
+    "satoshi_prob": 1.0,
     "correct": true,
-    "source": "post_bitcointalk",
+    "source": "bitcointalk",
     "author": ""
   },
   {
-    "text_preview": "| > constitute good security questions based on the anticipated entropy\n| > of the responses. This i",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00018199886835645884,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote\nThere's a great talk by the CTO of Facebook available on Youtube, and I think he gave the righ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00015720345254521817,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Quote from: sturle on November 10, 2010, 03:41:11 PM\nQuote from: ShadowOfHarbringer on November 10, ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00010513541201362386,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Quote from: z310 on April 18, 2010, 10:59:26 AM\nQuote\nExcept where otherwise noted, content on this ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.9083441404509358e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Quote from: sturle on November 10, 2010, 02:12:42 PM\nQuote from: ShadowOfHarbringer on November 10, ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 9.028038766700774e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "\"Criminals in Italy are increasingly making phone calls over the \ninternet in order to avoid getting",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.9773113055853173e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Thanks to the developers who are working on this port!\nSome notes as Mac-ish geek:\n1) No way to hide",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0004916815087199211,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "| Date: Tue, 28 Oct 2008 12:09:04 -0700\n| From: John Denker <[EMAIL PROTECTED]>\n| To: \"Leichter, Jer",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0004205874283798039,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "I recently implemented SSARES directly in python and also added\nparallelism to the searching. We can",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.417339005158283e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "<\nhttp://blog.fortify.com/blog/fortify/2009/02/20/SHA-3-Round-1\nOff by On\nA Software Security Blog\nS",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0001774367701727897,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "John Denker wrote:\nunless you have a possible case where (say) for any given pool,\nalternate bits ar",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.4395345462835394e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "BitTorrent clients can do hundreds of connections easily - this is why they end up killing those lit",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00010889690020121634,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Quote from: Sultan on January 08, 2011, 04:04:23 PM\nQuote from: idev on January 08, 2011, 12:44:39 A",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.702220030594617e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Greg Black wrote:\nI recently implemented SSARES directly in python and also added\nparallelism to the",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.3460796001018025e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "The DoT had earlier asked RIM to provide the master key to allow\naccess to contents transferred over",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.734356869244948e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "The fees are a function of total transaction volume.\nRight now the volume is pretty tiny so all fees",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0003611769643612206,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "IanG wrote, On 7/9/08 2:06 AM:\nThen, when a new Thunderbird comes out, you load that up and \n\nthe ot",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 6.377048703143373e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "The US Government has made a position, you should be aware of it...\nand your exchange seems to be do",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.576658698671963e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Bill Frantz wrote:\n[EMAIL PROTECTED] (Ed Gerck) on Monday, June 2, 2008 wrote:\n\nTo trust something, ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 6.302758993115276e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "But he probably wants an encryption scheme, not a cipher.\n\nJon, I'm not sure I understand what you m",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.4973849576781504e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "I think that this way, when a candidate chain is deleted because it\ngot too much shorter than the lo",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00013605112326331437,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "If it comes from the \"Trusted Computing Group\", you can pretty much\nassume that it will make your co",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.207672175951302e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "I prefer to just re-download them.\nBlock verification after the patch but before everyone upgrades i",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.9311537218745798e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Quote from: gavinandresen on July 23, 2010, 07:10:31 PM\nWhat's funny?\nI'm in agreement on your point",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.120191104244441e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Home routers and other equipment last for years. If we slowly roll out\nvarious protocol and system u",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.8409744118107483e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "On Mon, 14 Jul 2008 16:27:58 +0200\nFlorian Weimer <[EMAIL PROTECTED]> wrote:\n\nRight. There's a commo",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.108026794507168e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Got it working on FreeBSD! I'll submit my work here soon.\n$gmake -f makefile.fbsd\u00a0 \u00a0 \u00a0 \ng++ -c -O0 -",
-    "true_label": "not_satoshi",
+    "text_preview": "Version 0.3.9 rc1, please test\nVersion 0.3.9 rc1, please test\nHere's a test build if you'd like to h",
+    "true_label": "satoshi",
     "pred_label": "satoshi",
-    "satoshi_prob": 0.594668984413147,
-    "correct": false,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "To remedy this, you need to either ensure provable propagation of\ntransactions, or vary the work fac",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0002930818300228566,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "* Stephan Neuhaus:\nhttp://www.spiegel.de/wirtschaft/0,1518,563606,00.html\n\n\"District court\" may be a",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 6.402006692951545e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "To implement Zooko's triangle, one has to detect names\nthat may look alike, for example e-gold and e",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.417339005158283e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "On Feb 23, 2009, at 1:05 PM, \n[email\u00a0protected]\n wrote:\nIs it possible that the amount of informatio",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00015720345254521817,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "There's no need for the one to invest real money to be a developer :p\nWhat would it take for \nyou\n t",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.282725083408877e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "There would be a command line switch at runtime to tell it to run without UI.\u00a0 All it needs to do is",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00035627433680929244,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Philipp G\u00fchring wrote:\nHi,\n\nG'day Philipp,\n\nI am searching for symmetric encryption algorithms for d",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00013135180051904172,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "\"Jonathan S. Shapiro\" <[EMAIL PROTECTED]> writes:\nDebian seem to be particularly bad for not reporti",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 5.4546289902646095e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "I am considering adding TLS Server Name Indication support in the Postfix\nSMTP server and client. I ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00042388474685139954,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "A paper of mine just went up on \nhttp://eprint.iacr.org/\n It has some ideas\nthat I hope are new, I t",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.0360317396116443e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Hi,\nI am searching for symmetric encryption algorithms for decimal strings.\n\nLet's say we have vario",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 7.311254739761353e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "I'd like to see an option (with an RPC interface as well) to limit the number of connections that a ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.2647468944778666e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Nonsense. Total nonsense. A half-decent reverse engineer does not\nneed the source code and can easil",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.000103505612059962,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: satoshi on August 15, 2010, 11:17:24 PM\nQuote from: knightmb on August 15, 2010, 10:59:0",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00011367750994395465,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "If the bootloader is running on malicious hardware I don't think that\ntest can be trusted. :(\n-- Jon",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.308471059426665e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: knightmb on August 15, 2010, 10:59:04 PM\n[edit]\n Just saw your post, I'll build one to l",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.149717642576434e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "This style of attack is quite different from the usual academic model, it\nneatly illustrates Bruce S",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 9.49828972807154e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "A recent press release about a new cryptographic product, \"Permanent \nPrivacy\" (P.P.), mentioning my",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.4586677682236768e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "\"Ben Laurie\" <[EMAIL PROTECTED]> writes:\nThe problem is, the CRL mechanism itself is also dangerous.",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 5.9440888435347006e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Allen wrote:\nVery. The (I hate to use this term for something so pathetic) password \n\nfor the file i",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.1822626371867955e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "On Fri, 30 Jan 2009 11:40:12 -0700\nThomas Coppi <\n[email\u00a0protected]\n[email\u00a0protected]\n\nI asked Rob T",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 9.610241977497935e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "List,\nIn a business, one must write down the passwords and one must have a \n\nduplicate copy of it, w",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 8.156224794220179e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Hi all,\nToday, 30 December 2008, at the 25th Annual Chaos Communication Congress in \nBerlin,\nwe anno",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.8514772061025724e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: Kprawn on February 07, 2016, 06:35:16 AM\nThere are a lot of people who do not want Bitco",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.434627408045344e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "[email\u00a0protected]\nPerhaps, though the MAC in TLS cipher-suites needs just 2nd pre-image\nresistance, ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.679298268049024e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: Babylon on July 21, 2010, 03:42:05 AM\n<snip>\nI would not expect to be able to continuous",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 8.547616744181141e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "cyberspace is one of many indicators that the world is becoming a more \n\nlevel playing field both ec",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00010637458763085306,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Screen shot: \nDisk image: \nhttp://heliacal.net/~solar/bitcoin/Bitcoin-MacOSX-universal-svn-75-201004",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0001191323681268841,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Thanks, that question advances the discussion.\nThe answer, however, is no, I did not assume 100% ent",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0001511819864390418,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Depending on the level of protection you want, you could just add a\nscript to your .forward to encry",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 6.868318450869992e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "At Thu, 10 Jul 2008 18:10:27 +0200,\nEugen Leitl wrote:\nhttp://www.tfr.org/wiki/index.php?title=Techn",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 5.562206206377596e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "BitTorrent clients can do hundreds of connections easily - this is why they end up killing those lit",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00010889690020121634,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Normally, when security problems are encountered with a single piece\nof software, the responsible th",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 8.99284568731673e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Those interested in predicate encryption might also enjoy \nGroup Authentication Using The Naccache-S",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 5.025061182095669e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "A paper was presented at the NIST/OASIS-sponsored IDtrust\nconference in Gaithersburg, MD last month,",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 6.427061452995986e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "still remain, is the vulnerability of password lists themselves, that \n\ncould be downloaded and crac",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.9278733058599755e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "On Sun, Jan 25, 2009 at 11:04 PM, Jerry Leichter <\n[email\u00a0protected]\nwrote:\n\nI just received a phish",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 5.2868166676489636e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "At Wed, 27 Aug 2008 16:10:51 -0400 (EDT),\nJonathan Katz wrote:\nHmm... I'm not sure I recognize the d",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 5.62776840524748e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "On Sat, May 2, 2009 at 12:33 PM, Perry E. Metzger <\n[email\u00a0protected]\nAs just one obvious example of",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 9.915272676153108e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quoting:\n A top federal cybersecurity official resigned this week in a letter\n sharply critical of w",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.8999218809767626e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Computers are already designed to consume much less electricity when\nidle than when running full til",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.4973849576781504e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Perry E. Metzger wrote:\nIt turns out that the counterfeit chips business is booming:\n\nhttp://www.eet",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.575095666339621e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "[email\u00a0protected]\nPlus: that's a lot of code to read! A single person can't hope to\nunderstand the t",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.005115973384818e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: forever on January 07, 2011, 10:14:34 AM\nQuote from: spndr7 on June 19, 2010, 12:36:40 P",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 7.813211414031684e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "You're the one who demonstrates day after another your total economic ignorance. I told you a zillio",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 8.061209518928081e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "This post is meant to delve into the monetary aspects of Bitcoin, and the differences between Bitcoi",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0003507527871988714,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Is there an upper limit on the number of RSA Public/Private 1024 bit \nkey pairs possible? If so what",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00015059269207995385,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Indeed, the classic question is \"I've just bought this new computer\nwhich claims to have full-disk e",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.76364441763144e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "* Dirk-Willem van Gulik:\nIf the padding scheme is decent, this should not be possible without\nbreaki",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.4854579603706952e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Transaction fees will pay for the generation of the chain in the future, therefore if the BitDNS guy",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 5.583975143963471e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Updated and combined instructions:\n1. \u00a0Stop generating immediately, close your current client if you",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.011834809556603432,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Quote from: sirius-m on April 18, 2010, 11:43:55 AM\nChanged.\nMany thanks!\nQuote from: sirius-m on Ap",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 5.738759500673041e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "I just re-checked, this code was from SSLeay, so it pre-dates OpenSSL\ntaking over from me\n(about 10 ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.732141365413554e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "[Moderator's note: Top posting is considered untasteful. --Perry]\nIt doesn't need to be malicious. I",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.5220887841423973e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "[Moderator's note: I posted on this earlier, but I really do want to\nsee Bletchley Park maintained..",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.1345037819410209e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "James A. Donald wrote:\nCommittees of experts regularly get cryptography wrong - consider, for \n\nexam",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00010229986219201237,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Udhay Shankar N wrote, On 9/7/08 5:52 PM:\nI think Dan Kaminsky is on this list. Any other tidbits yo",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.4300239601871e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "As it has been pointed out numerous times on this and other places, this \nis a singularly bad idea.\n",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.625093682378065e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "In more detail, the 64 (64-bit) input words are prefixed by two sets\nof about a dozen words - sorry,",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00016997529019135982,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "If we could convince (this is the hard part) companies to publish what\nthey think their chips should",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.8895257350523025e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Wouter Slegers <[EMAIL PROTECTED]> writes:\nhttp://crypto.stanford.edu/~dabo/papers/ssl-timing.pdf\n).",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 5.62776840524748e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: dwdollar on February 17, 2010, 02:14:04 AM\nSite is back up at \nhttp://98.168.168.27:8080",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.665628512157127e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Looking a little more closely, I found this paper by Patarin from\nCrypto 2005 which describes securi",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.6336325138108805e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "No need to be a major power. Linux patches x86 code, as does Windows. I ran \nacross a project severa",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.937393426487688e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "these have been circulating for hours, but they are content-free title \nslides...\n\n[Moderator's note",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.3552616767119616e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "you enter a usercode in the first screen, you are presented with a \n\nsecond screen to enter your pas",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0002802109520416707,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "[Moderator's Note: Top posting is discouraged. --Perry]\nWhat I meant was that the crypogram decrypte",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.244481558795087e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: BitCoinPurse on July 27, 2010, 05:48:34 PM\nWilliam Pitock, aka Nenolod, is self-proclaim",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.23183267028071e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "AACS Content Protection\nTitle: Traitor Tracing for Anonymous Attack in AACS Content Protection\n\nSpea",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 5.874842099728994e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Multiple responses inline:\nI too would like to hear more information on this, particularly the \n\ncry",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 5.967351535218768e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "This doesn't seem to have garnered much attention, but this year \nmarks two\n\nmilestones in PKI: Lore",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.103017504850868e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Isn't this just a semantic game on the part of RIM and the government?\nThe phrase \"enterprise custom",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.2814379412448034e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "[EMAIL PROTECTED] (Perry E. Metzger) on Wednesday, September 24, 2008 wrote:\nMy 96 year old mother d",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.6070305466419086e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "How about this:\nHeadline: Bitcoin releases version 0.3\nBody: The crypto-anarchist dream come true? \u00a0",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0001784793275874108,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "An interesting datapoint I've always had on this question: Back in 1975\nor so, a mathematician I kne",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.959695459343493e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: satoshi on July 14, 2010, 09:10:52 PM\nI anticipate there will never be more than 100K no",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00010720880527514964,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Quote from: satoshi on December 09, 2010, 02:37:05 PM\nNew transaction templates can be added as need",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00018023050506599247,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "But do beware of becoming something of a luddite w.r.t. entropy sources.\nIf you can mix seeds into y",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 8.029783930396661e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "actually be possible to construct such a \"random against any \n\ncomputation that's possible in princi",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00017197855049744248,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Jim Youll wrote:\nIf there's just one key, then Kaspersky could get maximum press by\npaying the ranso",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.347253692074446e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: knightmb on July 14, 2010, 04:34:44 PM\nI agree, I've been looking into packaging \"blocks",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00024729344295337796,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Quote from: TopSoil on July 13, 2010, 07:43:01 PM\n3) I know the number is really 21million*10^8 or w",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0001511819864390418,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "The average total coins generated across the network per day stays the same.\u00a0 Faster machines just g",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0001200666229124181,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "stwenhao"
-  },
-  {
-    "text_preview": "Quote from: BitCoinPurse on July 25, 2010, 03:44:42 PM\nThe end of the week saw a sharp decline in ex",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0001621928095119074,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Quote from: ShadowOfHarbringer on December 10, 2010, 04:41:39 PM\nQuote from: ribuck on December 10, ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 9.314593626186252e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Quote from: bitcoinex on November 29, 2010, 02:43:42 PM\nBut damaging torture can not be withstand. I",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.0543020582408644e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "A variant on this idea protects against a separate problem, where k\nis unguessable but somehow the s",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.870463817496784e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "\"Tromboning\". That's a word I've been looking for.\nTromboning is what happens when I send packets be",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 9.098840382648632e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "=?ISO-8859-1?Q?Joachim_Str=F6mbergson?= <\n[email\u00a0protected]\nThis is only going to be a problem if yo",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 5.3910844144411385e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Jon, I'm not sure I understand what you mean.\n\nIf I am reading his message correctly, the original p",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 6.477467104559764e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "There is a chasm of difference between being compelled to produce \nkeys, which could be subsequently",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 5.0842922064475715e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Hello all,\nIf I exchange messages with a system and the messages are encrypted with a \nsymmetric key",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.5088500731508248e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "In 1951, John von Neumann wrote:\nThat may or may not be an overstatement.\n\nIMHO it all depends on wh",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 8.415109914494678e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: AungThu on July 14, 2014, 06:19:05 AM\nQuote from: spndr7 on June 19, 2010, 12:36:40 PM\nS",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.94715895911213e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "A topic that was opened about 8 years ago, I think 8 years ago there was no international money tran",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0001156931757577695,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "I've previously mentioned Flylogic as a company that does cool attacks \non chip-level hardware prote",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 6.377048703143373e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "At Thu, 28 Aug 2008 17:32:10 +1200,\nPeter Gutmann wrote:\n[Description of reduced-range stream cipher",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.8559108866611496e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "So the entities on the public record are entities\nfunctioning like pre 1915 banks - let us call them",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 9.098840382648632e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Peter Gutmann wrote:\n[email\u00a0protected]\nYou could note a certain overlap between the promoters of Dig",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 7.632232882315293e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "www.usable.com has launched a new password management service intended\nto make it easy to login to p",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.8704668036662042e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: Anonymous on November 11, 2010, 12:12:45 AM\nWell,they can try. The problem for people wh",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.0959101422922686e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "John Gilmore writes:\nIt's interesting to consider the ultimate technological resolution to this\nissu",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00019449260435067117,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "\"Perry E. Metzger\" <[EMAIL PROTECTED]> writes:\nPainting the camera lenses with laser pointers is qui",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.929840618686285e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "On 1227894567 seconds since the Beginning of the UNIX epoch\n\"Perry E. Metzger\" wrote:\nThey failed to",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.8704668036662042e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Ben Laurie wrote:\nObviously. Clearly I am talking about a server in a different domain.\n\nAnd we (Kel",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.690851735882461e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Perry E. Metzger wrote:\nThere are now a number of drives on the market advertising AES based\nFDE in ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.7108802896691486e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "One thing I might mention is that in many ways bitcoin is two independent\nideas: a way of solving th",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.9135655242716894e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "This would seem to imply they already verified the public key was\nconstant in the trojan and didn't ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 8.716188312973827e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "My bank doesn't provide any sort of authentication for logging in to\nbank accounts other than passwo",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.8704668036662042e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "I am not so sure about this statement. The newer drives are far more\nruggedized and superior in cons",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 6.477467104559764e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: sturle on December 10, 2010, 07:37:19 AM\nIt is in our interest that it would still be po",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 5.783766755484976e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "The guy's specialty was algebraic geometry - a hot field at the time. \nThis is the area of mathemati",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 5.967351535218768e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "[Moderator's reminders:\n 1) 80 column text is easier for many of us to read.\n 2) Top posting conside",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.7108802896691486e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Making the effort more complicated is the fact that the puzzle maker is alive\nand, in theory at leas",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00010783875040942803,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Ben Laurie writes:\nThat's a good point, Ben. Dan Kaminsky's DNS tester at \nhttp://www.doxpara.com/\n\n",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 6.949274393264204e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: laszlo on April 21, 2010, 12:07:49 PM\nGlad to hear someone besides me is interested in u",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00016030350525397807,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "I've a hard time believing that this is the major obstacle. We all use\ncredit cards all the time -- ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 6.63106475258246e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: Insti on July 17, 2010, 02:05:09 PM\nQuote from: ichi on July 17, 2010, 01:59:36 PM\nI inv",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0001468177215429023,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Quote from: D\u0489ataWraith on July 12, 2010, 09:55:48 AM\nYeah. The overall sentiment doesn't seem to be",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.794958294951357e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Leichter, Jerry wrote:\nI suspect the only heavy-weight defense is the same one we use against\nthe \"T",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00013135180051904172,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote\nThat's not bad. \u00a0Actual network bandwidth will be higher (the way the network is connected you",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0003439709544181824,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "(I saw this on another mailing list -- a follow-on to earlier\ndiscussions about Blackberry in India.",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0001188999303849414,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: da2ce7 on December 09, 2010, 02:45:41 AM\nTransaction fees will pay for the generation of",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 5.990705903968774e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Which one would you use for buying or selling BTC internationally? Do you have experience using some",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 9.206084359902889e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Eric Rescorla wrote:\nAt Fri, 8 Aug 2008 17:31:15 +0100,\nDave Korn wrote:\n\nEric Rescorla wrote on 08 ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 9.063370089279488e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "\"James A. Donald\" <[EMAIL PROTECTED]> writes:\nThe initial WEP design was done without cryptography e",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.9073577277595177e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "On Wed, Apr 9, 2008 at 12:59 PM, Leichter, Jerry\n<[EMAIL PROTECTED]> wrote:\nGoogle says:\n2factor Inc",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.0785171727766283e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "I think I've found the problem with the frequent market crashes.\u00a0 It will be another day or two befo",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00012805909500457346,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Where I think we disagree is that I would rather that the spec said \n\nexplicitly to throw them away.",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.3737338779028505e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "distinct advantage for American intelligence agencies. In December \n\n2005, The New York Times report",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 6.579465116374195e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "We should make submissions for every release. The 1.0 release is simply more likely to be accepted. ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 6.895198748679832e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "* Ben Laurie:\nIt's mentioned in the manpage for a function that eventually calls the\nfunction that w",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.586742994026281e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "It took me a while to figure out where to get the wx_gtk2ud-2.9 library needed to compile bitcoind, ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0006023541209287941,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Quote from: madhatter2 on December 15, 2009, 05:21:09 AM\nIt is also throwing the same std::string is",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00016898241301532835,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Peter Gutmann wrote:\nDavid Molnar <[EMAIL PROTECTED]> writes:\n\nDan Geer's comment about the street p",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 7.632232882315293e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: alani123 on July 26, 2014, 02:16:01 PM\nQuote from: AungThu on July 14, 2014, 06:19:05 AM",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.069458009325899e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Quote from: imnichol on July 27, 2010, 12:34:16 PM\nQuote from: BitCoinPurse on July 26, 2010, 01:43:",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.3319039832567796e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Quote from: TopSoil on July 14, 2010, 03:59:18 PM\nQuote\nWhy? E-Mail and Jabber work the same way. Ev",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 7.169852324295789e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Leichter, Jerry wrote:\nNo real technical data I can find on the site, and I've never seen\na site wit",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.76364441763144e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "DoD/government uses smartcards, but that's probably not acceptable to\nthe broad population. There's ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 6.735481292707846e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Begin forwarded message:\nFrom: Eugen Leitl <[EMAIL PROTECTED]>\nDate: November 12, 2008 6:10:52 AM GM",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0011095014633610845,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Hi,\nJerry Leichter wrote:\n\nNot specifically, but you can simply take the first 64 bits from a \n\nlarg",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00010270019265590236,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "| Perry E. Metzger wrote:\n| > A pretty scary paper from the Usenix LEET conference:\n| > \n| > \nhttp:/",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 8.597843407187611e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "To more fully quote Adam's question:\nhttp://www.truecrypt.org/docs/?s=hidden-volume\n\nHidden volumes ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.1822626371867955e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Adam Shostack <\n[email\u00a0protected]\nThis always happens right after you hit ^D... it turns out that Mi",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 8.09275807114318e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "[Moderator's note: top posting is not considered good form. --Perry]\nHi Rene,\n\nI suspect from readin",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.3644799512112513e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "At 11:57 AM 7/30/2008, Pierre-Evariste Dagand wrote:\nWell, they are some tests to judge the \"quality",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.386926618986763e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Folks:\nWe make some strong security claims about this distributed storage \n\nsystem (I guess it's cal",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00011412239109631628,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "As to technical options to accomplish this - it would not be hard\nto *_socialise_* a few small techn",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 8.818922651698813e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: kencausey on August 15, 2010, 09:36:30 PM\nHow about explaining to us stupid newbies what",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.000103505612059962,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Quote from: bitcoinex on November 29, 2010, 04:28:57 PM\nNo, I brought the murder as an example. In t",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.526822754589375e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Quote from: mtgox on July 25, 2010, 07:13:20 PM\nNice! I was going to try to get someone to do some s",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0001663630100665614,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Most modern P2P software tries UPnP by default. You can (of course) disable it (usually) in the opti",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00030061634606681764,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "ABCbits"
-  },
-  {
-    "text_preview": "I am inexperienced at programming. \u00a0I specialize in scripting and webdev mostly, but once my system ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0005988371558487415,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "As the service provider you have little choice but to assume local\nsecurity on the client side IF yo",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.108223386836471e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Peter,\nDid the \"Golden Reader Tool\" (GRT) recognize the Cardman reader w/o\nany modifications? The mo",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.975192885263823e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "It's much easier to have a single binary and multiple .mo files.\u00a0 It's too much maintenance work to ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0001998830703087151,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Ben Laurie <[EMAIL PROTECTED]> writes:\nAn AND gate isn't Turing Equivalent.\n\nAny modern processor is",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 8.732609785511158e-06,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "A quick Google search returned \nthese PayPal statistics\n, in case they're of interest to anyone:\nOve",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.0479141059913673e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Quote from: dwdollar on March 21, 2010, 07:18:13 PM\nExcellent.\u00a0 It seems like many of the Austrian S",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 7.632232882315293e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Quote from: BlueSky on February 07, 2010, 08:22:48 AM\nI assume you are using Rails or PHP Cake, as t",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 8.31707802717574e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "John Levine <\n[email\u00a0protected]\nYou don't even need a MITM, just replace the site image on your phis",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.629321847460233e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: P509SHO on July 23, 2014, 04:00:51 PM\nQuote from: spndr7 on June 19, 2010, 12:36:40 PM\nS",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.0006618544575758e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "No, but a few years ago I looked at all the certs in IE\nand Netscape and found that about 30% of the",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.8486754925106652e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "\"Leichter, Jerry\" <[EMAIL PROTECTED]> writes:\nIt's not speculation, encryption virii have been aroun",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.3578202015196439e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Hi.\u00a0 I'm considering endowing a cash prize for contribution to the development of a reliable open-so",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 6.085040877223946e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "At Mon, 1 Sep 2008 21:00:55 +0100,\nBen Laurie wrote:\nEven without an active attacker, this is a prob",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.6377607355243526e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: kencausey on August 15, 2010, 11:59:36 PM\n4b. \u00a0Currently the network has a combination o",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.001259498530998826,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "| \n| I believe the only way both of these highly dubious deployment practices \n| will be stamped out",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 7.426381489494815e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: ShadowOfHarbringer on November 29, 2010, 05:42:09 PM\nQuote from: bitcoinex on November 2",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.156969614792615e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "It's good the spec already addresses this problem. I'd like to see some more in depth access to thin",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 6.427061452995986e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "\"Steven M. Bellovin\" <[EMAIL PROTECTED]> writes:\nI don't disagree that much more needs to be done on",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.434142905054614e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Excerpt:\n Jennifer Caukin, Skype's director of corporate communications\n replied to us: \"We have not",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 6.085040877223946e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "* Peter Gutmann:\nI should have written that my main goal was to extract the public key\nmaterial, and",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 5.583975143963471e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "At 03:33 PM 8/19/2008 -0400, Perry E. Metzger wrote:\nhttp://blog.wired.com/27bstroke6/2008/08/federa",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 6.377048703143373e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "What you can currently do is set \"Minimize to the tray\" in options, then run it as \"bitcoin -min\" so",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0004165018617641181,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "| Leichter, Jerry wrote:\n| > I suspect the only heavy-weight defense is the same one we use against\n",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00034734528162516654,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: NewLibertyStandard on July 11, 2010, 02:50:51 AM\nQuote from: Xunie on July 10, 2010, 03:",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00014596008986700326,
+    "satoshi_prob": 0.9999977350234985,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": ""
   },
   {
-    "text_preview": "[2] Valgrind tracks the use of uninitialised memory. Usually it is bad \n\nto have any kind of depende",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 7.513914897572249e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: dwdollar on July 06, 2010, 03:57:48 AM\nI'd like to see the last two sentences...\n\"Prelim",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00020542288257274777,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Quote from: BitCoinPurse on July 27, 2010, 05:48:34 PM\nQuote from: imnichol on July 27, 2010, 12:34:",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00014119400293566287,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "+ John Kemp <[EMAIL PROTECTED]>:\nUnless he is merely blowing smoke, it would seem that he discovered",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 7.296379408217035e-06,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "[Moderator's note: my forwarding this is not an indication that I want\n to continue the \"are certs I",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.1659529263852164e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "I have to agree with MH, on his post from the other thread, BC will not have a real value until peop",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 9.704542753752321e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "There is no such thing as a \"benign\" web cache for secure pages.\nIf you detect something doing cachi",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.2656288163270801e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Indeed, too hard to beat Google.\nSuch service would probably be of great use by black or \"gray\" mark",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.689828968665097e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Quote from: jgarzik on September 30, 2010, 07:11:51 PM\nScaling to high \ntransaction rate\n has always",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.083840783801861e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Satoshi Nakamoto wrote:\nThis does not work - your proposal involves\ncomplications I do not think you",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.4229824955691583e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: sturle on December 09, 2010, 06:51:09 PM\n... I don't push all my encrypted internet traf",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.3319039832567796e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "One quick question about \"natural deflation\" (as I call it). I have noticed that it is possible to s",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.959695459343493e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "decryption, which is clearly a distinguishing attack; the third \n\nencryption makes it an all-or-noth",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.1528880097321235e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "I wouldn't call bitcoin \"energy backed\". \u00a0There has been ample discussion on this and varying opinio",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 8.284656360046938e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": " A human engineer given this problem would have used a\n counter chain of some sort. The evolved circ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0001368505327263847,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": " In other words, you have to fit in. Releasing code is not all there is to\n it. Ethics, fairness, ho",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00010637458763085306,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "It seems that Donald Knuth had his bank accounts attacked not once but\nthree times using his checkin",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.4868993427371606e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "So I'll ask a question. I saw the following on another list:\nhttp://pgp.mit.edu:11371/pks/lookup?sea",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.473898100812221e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "As the title says, we need, or at least could use a wiki. (in my opinion, that is)\nI don't have the ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.3684695659321733e-05,
-    "correct": true,
-    "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Do you think you can send me a screen shot with the menu problem?\nCommand-Shift-3 will put a screen ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 4.3319039832567796e-05,
+    "text_preview": "Thanks for finding that.\u00a0 We switched from ANSI in 0.2 to UTF-8 in version 0.3, so it must be relate",
+    "true_label": "satoshi",
+    "pred_label": "satoshi",
+    "satoshi_prob": 1.0,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": ""
   },
   {
-    "text_preview": "Quote\nWhy? E-Mail and Jabber work the same way. Everyone can run their own server, and many do, but ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 5.967351535218768e-05,
+    "text_preview": "I uploaded windows 0.3.1 rc1 and linux 0.3.1 rc2 to SourceForge and updated the links on the homepag",
+    "true_label": "satoshi",
+    "pred_label": "satoshi",
+    "satoshi_prob": 1.0,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": ""
   },
   {
-    "text_preview": "I just thought of this idea just now and thought I'd check the forum to see if it was already mentio",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 7.513914897572249e-05,
+    "text_preview": "MinGW GCC 4.5.0:\nCrypto++ doesn't work, X86_SHA256_HashBlocks() never returns\nI only got 4-way worki",
+    "true_label": "satoshi",
+    "pred_label": "satoshi",
+    "satoshi_prob": 0.9999998807907104,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": ""
   },
   {
-    "text_preview": "Quote from: d1337r on July 16, 2010, 09:07:49 AM\nYep. WebMoney is very popular in Russia, the second",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.80800775019452e-05,
+    "text_preview": "I believe it'll be possible for a payment processing company to provide as a service the rapid distr",
+    "true_label": "satoshi",
+    "pred_label": "satoshi",
+    "satoshi_prob": 0.999990701675415,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": ""
   },
   {
-    "text_preview": "I can't stand the suspense! Do any Jr. Members or higher happen to have an unofficial SVN rev 134 Li",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0001511819864390418,
+    "text_preview": "What version is the one where this happened?\u00a0 Release build, or built it yourself?\u00a0 Which operating ",
+    "true_label": "satoshi",
+    "pred_label": "satoshi",
+    "satoshi_prob": 1.0,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": ""
   },
   {
-    "text_preview": "Quote from: d1337r on July 16, 2010, 09:07:49 AM\nYep. WebMoney is very popular in Russia, the second",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.80800775019452e-05,
+    "text_preview": "There's a small transaction fee for very large transactions. \u00a0The node that generates the block that",
+    "true_label": "satoshi",
+    "pred_label": "satoshi",
+    "satoshi_prob": 1.0,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": ""
   },
   {
-    "text_preview": "Can anyone shed some light here?\ng++ -c -O0 -Wno-invalid-offsetof -Wformat -g -D__WXMAC__ -DNOPCH -D",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.18611355125904083,
+    "text_preview": "You should try it with tcatm's 4-way SSE2 SHA in sha256.cpp. \u00a0It compiles fine as a C file, just ren",
+    "true_label": "satoshi",
+    "pred_label": "satoshi",
+    "satoshi_prob": 1.0,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": ""
   },
   {
-    "text_preview": "Quote from: da2ce7 on November 10, 2010, 11:50:34 PM\nI was thinking about this overnight, Wikileaks ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 1.6442494597868063e-05,
+    "text_preview": "On Windows, findstr /c:\"version message\" debug.log\nIt looks like the bad chain was on block 74678 re",
+    "true_label": "satoshi",
+    "pred_label": "satoshi",
+    "satoshi_prob": 1.0,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": ""
   },
   {
-    "text_preview": "Quote from: ribuck on December 09, 2010, 06:57:31 PM\nQuote from: sturle on December 09, 2010, 06:51:",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.000214859246625565,
+    "text_preview": "Post your static IP\nPost your static IP\nIt would be nice to have a list of static IPs for new users ",
+    "true_label": "satoshi",
+    "pred_label": "satoshi",
+    "satoshi_prob": 1.0,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
-  },
-  {
-    "text_preview": "Like many people, I found last week's Newsweek cover\npiece, revealing Thomas M. Tamm as the principa",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.161314114346169e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
+    "author": ""
   },
   {
-    "text_preview": "I suggest implementing ncurses client or as bd suggested\nQuote\n<necrodearia> hmm, an ncurses client ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 3.928881778847426e-05,
+    "text_preview": "Currently, paying a fee is controlled manually with the -paytxfee switch.\u00a0 It would be very easy to ",
+    "true_label": "satoshi",
+    "pred_label": "satoshi",
+    "satoshi_prob": 0.9999998807907104,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": ""
   },
   {
-    "text_preview": "Quote from: theymos on October 03, 2010, 08:14:31 PM\nQuote from: martin on October 03, 2010, 07:59:0",
+    "text_preview": "Just buy 100 BTC as insurance against this happening. If the terrible deflationary spiral does happe",
     "true_label": "not_satoshi",
     "pred_label": "not_satoshi",
-    "satoshi_prob": 4.739097857964225e-05,
+    "satoshi_prob": 1.4792468050472962e-07,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": "FreeMoney"
   },
   {
-    "text_preview": "As the title says, we need, or at least could use a wiki. (in my opinion, that is)\nI don't have the ",
+    "text_preview": "To get to .04, I totaled up all the bids on bitcoinmarket starting with the highest one: so what I s",
     "true_label": "not_satoshi",
     "pred_label": "not_satoshi",
-    "satoshi_prob": 1.3684695659321733e-05,
+    "satoshi_prob": 2.6636456823325716e-05,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": "vess"
   },
   {
-    "text_preview": "I've decided its time to try some real trading. \u00a0I think it will be more exciting for everybody (mys",
+    "text_preview": "Seeing a 65 Mhash/s jump to 715 Mhash/s at the same core/mem with the newest poclbm_py2exe_20110127.",
     "true_label": "not_satoshi",
     "pred_label": "not_satoshi",
     "satoshi_prob": 0.00016410437820013613,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": "sc8nt4u"
   },
   {
-    "text_preview": "Bill Frantz <\n[email\u00a0protected]\nThe ARM family are particularly problematic for entropy gathering be",
+    "text_preview": "What exactly does the number of connections do for me? Do I generate more coins with more connection",
     "true_label": "not_satoshi",
     "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00013289992057252675,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "With Kryptos, Sanborn has made his strongest statement about what we don't\nsee and can't know. \"He d",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00012339458044152707,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Paul Hoffman wrote:\nAt 10:25 AM +0100 5/15/08, Ben Laurie wrote:\n\nPaul Hoffman wrote:\n\nI'm confused ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 8.95778794074431e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Hey,\nFirst off I must say that this is an amazing concept. I have been dreaming of a P2P money syste",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0002492325147613883,
+    "satoshi_prob": 8.87012811290333e-06,
     "correct": true,
     "source": "bitcointalk",
-    "author": "xtraelv"
+    "author": "RogerRabbit"
   },
   {
-    "text_preview": "The expected number of Bitcoins has been going down, but the expected value is not really. 10 days a",
+    "text_preview": "Running bitcoin feels like its indexing my harddisk. I will probably stop running the client, becaus",
     "true_label": "not_satoshi",
     "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0002127716870745644,
+    "satoshi_prob": 4.339894530858146e-06,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": "farmer_boy"
   },
   {
-    "text_preview": "Changes:\n- Fixed a wallet.dat compatibility problem if you downgraded from 0.3.17 and then upgraded ",
+    "text_preview": "The goal is to minimize inflation, not keep it going forever. BitCoin generation at this point is ju",
     "true_label": "not_satoshi",
     "pred_label": "not_satoshi",
-    "satoshi_prob": 0.00031015597051009536,
+    "satoshi_prob": 2.596866943349596e-05,
     "correct": true,
     "source": "bitcointalk",
-    "author": "vjudeu"
+    "author": "theymos"
   },
   {
-    "text_preview": "Perhaps our seeming disagreement is due to a differing interpretation\nof 'trusted'. I took it to mea",
+    "text_preview": "I addressed this in my original post: The seller maintains a list of both customers and innocent peo",
     "true_label": "not_satoshi",
     "pred_label": "not_satoshi",
-    "satoshi_prob": 1.086788597604027e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Wow, pecunix, i have never heard about that payment method, maybe that is because nobody is using th",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 5.1241670007584617e-05,
+    "satoshi_prob": 0.00011412239109631628,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": "teppy"
   },
   {
-    "text_preview": "Thanks for the feedback on this.\nOne thing we could do is lower the outbound connections from 15 to ",
+    "text_preview": "I will admit, without doing any significant research that governments do conduct war better than any",
     "true_label": "not_satoshi",
     "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0004108485300093889,
+    "satoshi_prob": 6.615601222392797e-08,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": "Nefario"
   },
   {
-    "text_preview": "Quote from: BitLex on November 10, 2010, 11:15:51 PM\nQuote from: ShadowOfHarbringer on November 10, ",
+    "text_preview": "Indeed, too hard to beat Google.\nSuch service would probably be of great use by black or \"gray\" mark",
     "true_label": "not_satoshi",
     "pred_label": "not_satoshi",
-    "satoshi_prob": 6.061318708816543e-05,
+    "satoshi_prob": 2.3139264158089645e-06,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": "caveden"
   },
   {
-    "text_preview": "As promised a couple of weeks ago, the public review of SKSML has\nbegun. The OASIS EKMI Technical Co",
+    "text_preview": "Hello,\nGreat to see that the minor FreeBSD-specific changes have been added to the SVN. Thanks!\nI am",
     "true_label": "not_satoshi",
     "pred_label": "not_satoshi",
-    "satoshi_prob": 8.029783930396661e-05,
+    "satoshi_prob": 5.955708911642432e-05,
     "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
+    "source": "bitcointalk",
+    "author": "The Madhatter"
+  },
+  {
+    "text_preview": "To get to .04, I totaled up all the bids on bitcoinmarket starting with the highest one: so what I s",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.6636456823325716e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "vess"
+  },
+  {
+    "text_preview": "There are always ways to run your own Internet and electric system so don't worry about that. If the",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.835080067598028e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "lol3c"
+  },
+  {
+    "text_preview": "In tradition of\nKiba's Letter to the EFF\nand inspired by\na new thought experiment: bitcoin's industr",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.6766787666711025e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "mizerydearia"
+  },
+  {
+    "text_preview": "Just as the subject says.\nA lot of new users (or those that want to run multiple computers with the ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.648084409884177e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "knightmb"
+  },
+  {
+    "text_preview": "\"what does this message mean: \"Generated (50.00 matures in 100 more blocks)\" ?\nIt means that in 100 ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 3.778374957619235e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "BitcoinFX"
+  },
+  {
+    "text_preview": "People do not realize how much fear controls them.\u00a0 What they also do not realize is that the big bu",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0002679052122402936,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "shanerc563"
+  },
+  {
+    "text_preview": "What exactly does the number of connections do for me? Do I generate more coins with more connection",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 8.87012811290333e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "RogerRabbit"
+  },
+  {
+    "text_preview": "What I meant about purchases taking longer would be in the range of several hundred to several thous",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.517511009296868e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Hal"
+  },
+  {
+    "text_preview": "Glad to hear someone besides me is interested in using Bitcoin on Mac OS\nI made a mistake with the P",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.006673402152955532,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "laszlo"
+  },
+  {
+    "text_preview": "I am running Windows 32 (But have AMD64 dual core machine), but could, if required have a version of",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 6.179393494676333e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "BlueSky"
+  },
+  {
+    "text_preview": "I have been using monegram for more than two years and they are one of the best international paymen",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.6566778526794224e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "949miner"
+  },
+  {
+    "text_preview": "the thing is that the initial blockchain download is quite slow for most of the users.\nmostly becaus",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0025102407671511173,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "SmokeTooMuch"
+  },
+  {
+    "text_preview": "Hello everybody... I've been reading the forum for a couple of weeks, and now I think I can suggest ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 8.076349331531674e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "DrWatson"
+  },
+  {
+    "text_preview": "As far as I can tell, transactions are not prioritized according to fee size. Paytxfee just ensures ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.948522140082787e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "theymos"
+  },
+  {
+    "text_preview": "I also run a Tor relay and exit node and had similar ideas for Tor integration with Bitcoin.\nTor can",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0010587475262582302,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "BitcoinFX"
+  },
+  {
+    "text_preview": "Okay, I will look into the std::string issue. It is also throwing the same std::string issue on the ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 6.452215166063979e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "The Madhatter"
+  },
+  {
+    "text_preview": "It was wise when creating the BTC specification to allow up to 8 (I think its 8 ) decimal places of ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 8.014118066057563e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "InterArmaEnimSil"
+  },
+  {
+    "text_preview": "Oh, yeah, just noticed this topic. I can't remember when those block chains were snapshot, but I'll ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 4.5838405640097335e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "knightmb"
+  },
+  {
+    "text_preview": "It really only makes sense for nodes with the port forwarded to remain on the IRC channel, right?\u00a0 M",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0002694791473913938,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "laszlo"
+  },
+  {
+    "text_preview": "Right, but changing it NOW, regardless of if we use it would still require the users to upgrade (\"br",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.7914731617784128e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Quantumplation"
+  },
+  {
+    "text_preview": "Hello all - this is a bit of an experiment for me, being that Bitcoin is so new and all.\u00a0 To attempt",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 6.425552214750496e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "venom"
+  },
+  {
+    "text_preview": "The ability to transfer stored value is extremely valuable in and of itself. Bitcoin can be used by ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 3.243617072712368e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "NewLibertyStandard"
+  },
+  {
+    "text_preview": "One quick question about \"natural deflation\" (as I call it). I have noticed that it is possible to s",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 5.942664529356989e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "The Madhatter"
+  },
+  {
+    "text_preview": "Updated and combined instructions:\n1. \u00a0Stop generating immediately, close your current client if you",
+    "true_label": "not_satoshi",
+    "pred_label": "satoshi",
+    "satoshi_prob": 0.9546791315078735,
+    "correct": false,
+    "source": "bitcointalk",
+    "author": "kencausey"
+  },
+  {
+    "text_preview": "I'm running Ubuntu Lucid (32 bit), all packages up to date.\u00a0 I had run bitcoin 0.2 previously, and j",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0001015038214973174,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "singpolyma"
+  },
+  {
+    "text_preview": "To get to .04, I totaled up all the bids on bitcoinmarket starting with the highest one: so what I s",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.6636456823325716e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "vess"
+  },
+  {
+    "text_preview": "lmao Hanson = Justin Bieber\nIt sounds like a great idea to have a bitcoin welcoming committee.Forums",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 4.766439360537333e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "unknown_btctalk"
+  },
+  {
+    "text_preview": "There's a great talk by the CTO of Facebook available on Youtube, and I think he gave the right advi",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.00010431732516735792,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "TopSoil"
+  },
+  {
+    "text_preview": "NEVER\nRUN A USERSPACE APPLICATION AS ROOT, EVER\nSorry about that, but using root for that is so fool",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 5.594337835646002e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Xunie"
+  },
+  {
+    "text_preview": "Use PayPal only if you like having your funds frozen. They also don't allow currency conversion and ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 6.179393494676333e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "The Madhatter"
+  },
+  {
+    "text_preview": "You're right, there is a demand. But I wouldn't necessarily say that just because there is a demand ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 7.153170145102195e-08,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "RogerRabbit"
+  },
+  {
+    "text_preview": "I'm attempting to run bitcoin-0.3.10 (bitcoind) on a ttylinux-i686-11.2 VM in VirtualBox OSE on Ubun",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.00030002996209077537,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "ichi"
+  },
+  {
+    "text_preview": "Could the bitcoin network be destroyed by someone generating endless bitcoin addresses nonstop? \u00a0I m",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 7.827868103049695e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Minsc"
+  },
+  {
+    "text_preview": "I'd like to see an option (with an RPC interface as well) to limit the number of connections that a ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.010638127103448e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "lachesis"
+  },
+  {
+    "text_preview": "Hello, great work!\nLet me just say that I love the idea behind this project, and support it fully. I",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 3.5699022191693075e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "RogerRabbit"
+  },
+  {
+    "text_preview": "No not a reputation system.\nInstead more CPU-power = more votes.\nMore correct votes = more money.\nMo",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 8.415109914494678e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "sebastian"
+  },
+  {
+    "text_preview": "As far as I know, Satoshi and the Bitcoin community did not accept any specific URI-scheme yet.\nIn f",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0004826470394618809,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "LZ"
+  },
+  {
+    "text_preview": "'Seeing the farm' is the realization that you are a slave. It should cause a change in your percepti",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 9.78004936769139e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "The Madhatter"
+  },
+  {
+    "text_preview": "I wrote up a low-trust third-party escrow system in bitcoin, here:\nhttp://bitcointalk.org/index.php?",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 3.162759185215691e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "devrandom"
+  },
+  {
+    "text_preview": "As the title says, we need, or at least could use a wiki. (in my opinion, that is)\nI don't have the ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 4.556399062494165e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Xunie"
+  },
+  {
+    "text_preview": "In fact, Bitcoin is probably the most transparent payment network in the world. At the same time, bi",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.0383158698678017e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "bttcoin"
+  },
+  {
+    "text_preview": "Well, the ones I tested were from lowendbox.com... I didn't test the ones that accept only PayPal be",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.207963916589506e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "nimnul"
+  },
+  {
+    "text_preview": "So, I finally got my client to start generating and after I got my laptop optimized for the task and",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.195935965370154e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "AgoraMutual"
+  },
+  {
+    "text_preview": "I'm trying to set up a hidden service on tor, and I've copied the following into my torrc:\nHiddenSer",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 4.8514772061025724e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "fergalish"
+  },
+  {
+    "text_preview": "I appreciate the offer davidonpda. \u00a0Thufir and Teppy have also offered to help. \u00a0Thank you guys.\nFor",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0001670140482019633,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "dwdollar"
+  },
+  {
+    "text_preview": "All modern computers are amd64/EM64T. It should be able to be compiled on either platform. It is a h",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 9.553496965963859e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "The Madhatter"
+  },
+  {
+    "text_preview": "I have 0.2 running on FreeBSD windowed or non-windowed. I am also really close to having it running ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.5234503507599584e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "The Madhatter"
+  },
+  {
+    "text_preview": "I assume you tested it, then, and it did not work? What about decimal? Can I send 0.01 cents? Just g",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.2460072866815608e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "RockerNun"
+  },
+  {
+    "text_preview": "The CPU usage was expected when generating hashes, but perhaps I was not clear there. The harddisk a",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.1957703236475936e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "farmer_boy"
+  },
+  {
+    "text_preview": "People do not realize how much fear controls them.\u00a0 What they also do not realize is that the big bu",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0002679052122402936,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "shanerc563"
+  },
+  {
+    "text_preview": "I'm attempting to run bitcoin-0.3.10 (bitcoind) on a ttylinux-i686-11.2 VM in VirtualBox OSE on Ubun",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.00030002996209077537,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "ichi"
+  },
+  {
+    "text_preview": "Could the bitcoin network be destroyed by someone generating endless bitcoin addresses nonstop? \u00a0I m",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 7.827868103049695e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Minsc"
+  },
+  {
+    "text_preview": "Regarding moving packages annonymouslly, ii got n idea, would work at least within a city, and perha",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.00013186583237256855,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "TiagoTiago"
+  },
+  {
+    "text_preview": "I really don't think that Libertarians know what Society is. They want to get rid of the state becau",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 8.398072168347426e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "no to the gold cult"
+  },
+  {
+    "text_preview": "OK we have 3 players (hopefully) including myself.\nThis is taking place this Sat. 20th March 2010 at",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 6.168799882289022e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "BitcoinFX"
   },
   {
     "text_preview": "A topic that was opened about 8 years ago, I think 8 years ago there was no international money tran",
     "true_label": "not_satoshi",
     "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0001156931757577695,
+    "satoshi_prob": 2.058049176412169e-06,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": "Granxis"
   },
   {
-    "text_preview": "Quote from: madhatter2 on December 14, 2009, 03:01:39 PM\nCan anyone shed some light here?\ng++ -c -O0",
+    "text_preview": "You misunderstand my position. I am not saying the government should be doing this. They shouldnt. B",
     "true_label": "not_satoshi",
     "pred_label": "not_satoshi",
-    "satoshi_prob": 0.057599205523729324,
+    "satoshi_prob": 8.92099365046306e-07,
     "correct": true,
     "source": "bitcointalk",
-    "author": "4gu5dr4g0n"
+    "author": "FreedomFirst"
   },
   {
-    "text_preview": "I am inexperienced at programming. \u00a0I specialize in scripting and webdev mostly, but once my system ",
+    "text_preview": "No danger there because it is not a pyramid scheme.\u00a0 \u00a0It simply means that people want BTC more than",
     "true_label": "not_satoshi",
     "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0005988371558487415,
+    "satoshi_prob": 0.0005592909874394536,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": "bytemaster"
   },
   {
-    "text_preview": "Also, the work requirement for adding a link to the chain should \nvary (again exponentially) with th",
+    "text_preview": "\"what does this message mean: \"Generated (50.00 matures in 100 more blocks)\" ?\nIt means that in 100 ",
     "true_label": "not_satoshi",
     "pred_label": "not_satoshi",
-    "satoshi_prob": 5.671904364135116e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Surprised that there isn't one instated yet. This forum has been up since the Inception of bitcoin, ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 7.169852324295789e-05,
+    "satoshi_prob": 3.778374957619235e-05,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": "BitcoinFX"
   },
   {
-    "text_preview": "Quote from: jgarzik on December 09, 2010, 03:14:00 AM\nCurrency transactions would have to fight hard",
+    "text_preview": "\"what does this message mean: \"Generated (50.00 matures in 100 more blocks)\" ?\nIt means that in 100 ",
     "true_label": "not_satoshi",
     "pred_label": "not_satoshi",
-    "satoshi_prob": 0.0002406247513135895,
+    "satoshi_prob": 3.778374957619235e-05,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": "BitcoinFX"
   },
   {
-    "text_preview": "[email\u00a0protected]\nThe subject is \"[w]hy the poor uptake of encrypted email?\".\n\nAlec's answer shows t",
+    "text_preview": "Could a URI call such a function...?\nMaybe a URI could specify a simple one-time payment OR a simple",
     "true_label": "not_satoshi",
     "pred_label": "not_satoshi",
-    "satoshi_prob": 2.576658698671963e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "This is the first update to Bitcion that I'm not jumping on and grabbing right away, because I think",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 8.547616744181141e-05,
+    "satoshi_prob": 3.243617072712368e-07,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": "Bruce Wagner"
   },
   {
-    "text_preview": "[madhatter@10 /home/madhatter/src/bitcoin]# diff -u headers.h.orig headers.h\u00a0 \u00a0 \u00a0 \n--- headers.h.ori",
+    "text_preview": "\"Banner Statistics - EasyHits4U\nURL -\nhttp://www.bitcoin.org/\nAlt Text - Bitcoin.org P2P Anonymous D",
     "true_label": "not_satoshi",
     "pred_label": "not_satoshi",
-    "satoshi_prob": 0.05845324322581291,
+    "satoshi_prob": 0.0001547666179249063,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": "BitcoinFX"
   },
   {
-    "text_preview": "You could use the SSL Blacklist plugin\n(\nhttp://codefromthe70s.org/sslblacklist.asp\n) for Firefox or",
+    "text_preview": "Hi DataWraith\n\nI think that using magnet-links just because they are already somewhat popular does n",
     "true_label": "not_satoshi",
     "pred_label": "not_satoshi",
-    "satoshi_prob": 5.761219290434383e-05,
-    "correct": true,
-    "source": "mailing_list_cryptography",
-    "author": "unknown"
-  },
-  {
-    "text_preview": "Quote from: z310 on April 18, 2010, 10:59:26 AM\nQuote\nExcept where otherwise noted, content on this ",
-    "true_label": "not_satoshi",
-    "pred_label": "not_satoshi",
-    "satoshi_prob": 2.9083441404509358e-05,
+    "satoshi_prob": 0.0028839590959250927,
     "correct": true,
     "source": "bitcointalk",
-    "author": "unknown_bitcointalk"
+    "author": "Karmicads"
+  },
+  {
+    "text_preview": "I tried about 6 different cheap VPS providers and the best performance/cost so far is $11 for 8Mhash",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 6.108279194450006e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "nimnul"
+  },
+  {
+    "text_preview": "I'm not sure how MyBitCoin's infrastructure works.\nI mean if the BitCoins were on a database, and tr",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.596562242411892e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Sultan"
+  },
+  {
+    "text_preview": "I buy LR from one trusted person using Liqpay to send him my money directly from my CC. It takes me ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.1035853475505064e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "jorgen"
+  },
+  {
+    "text_preview": "I assume you tested it, then, and it did not work? What about decimal? Can I send 0.01 cents? Just g",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.2460072866815608e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "RockerNun"
+  },
+  {
+    "text_preview": "To begin,\nCharity: Water\nRough draft:\n\nDear Charity: Water,\nThe Bitcoin community would like to intr",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.852093348337803e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "mizerydearia"
+  },
+  {
+    "text_preview": "I have access to a couple of VPS instances running on Xen that often have a LOT of spare cycles. Sin",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.9293013053811592e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "lachesis"
+  },
+  {
+    "text_preview": "Interesting how people fuse my ideas ^^\n(paysafe cards (\nhttp://bitcointalk.org/index.php?topic=15.0",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 3.487205958663253e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "SmokeTooMuch"
+  },
+  {
+    "text_preview": "So, supposing bitcoin, or some variant, manages to completely replace the world's currencies.\u00a0 This ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 3.7266393064783188e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "fergalish"
+  },
+  {
+    "text_preview": "OK thanks riX.\nSo, once Bitcoin has connected to at least one node then the -connect option will eli",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.108223386836471e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "BitcoinFX"
+  },
+  {
+    "text_preview": "Having to download the entire chain also causes issues with new user acceptance.\u00a0 I installed bitcoi",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.00011147904297104105,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Jman"
+  },
+  {
+    "text_preview": "The \"Worlds First Sudo-Anonymous Online Poker Tourament\" was played with much success. Everyone expr",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 3.6621306207962334e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "BitcoinFX"
+  },
+  {
+    "text_preview": "This will be what makes bitcoin successful, being able to exchange it for goods & services(not just ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 8.886214004633075e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "BlueSky"
+  },
+  {
+    "text_preview": "The total money supply of USD, for instance, is somewhere between\u00a0 $1 Trillion and $10 Trillion:\nhtt",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.4912718143023085e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Timo Y"
+  },
+  {
+    "text_preview": "But then everyon had to do this, because:\nIf you buy coins this way, you also have to sell them this",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.6577248490866623e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "SmokeTooMuch"
+  },
+  {
+    "text_preview": "Exchangers are not going to stick around until there is real commerce happening within BC. I mean, w",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.3595641778229037e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "The Madhatter"
+  },
+  {
+    "text_preview": "Your remedy supposedly lies in finding out what a \"US Citizen\" really is and what your obligations a",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.640820528336917e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "The Madhatter"
+  },
+  {
+    "text_preview": "MultiSig page:\nhttps://coinb.in/multisig/\nOur P2P Fiat-BTC Exchange is based on 2of2 MultiSig and th",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 4.1486492818876286e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "k99"
+  },
+  {
+    "text_preview": "The max supply is realized by a process called 'Halving' it simply does what it says it halves the r",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.00023921929823700339,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Aura"
+  },
+  {
+    "text_preview": "I've decided its time to try some real trading. \u00a0I think it will be more exciting for everybody (mys",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0009417796973139048,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "dwdollar"
+  },
+  {
+    "text_preview": "It's a bad idea to try to break the \"in-production\" bitcoin network.\nIf anybody is starting serious ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.1993562313582515e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Gavin Andresen"
+  },
+  {
+    "text_preview": "I enjoy playing online poker ( Texas Holdem ) and so I've decided to run a tournament with Bitcoins ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.2755551324517e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "BitcoinFX"
+  },
+  {
+    "text_preview": "I won this MSVisual Studio 2008 at a developer contest earlier this year, and don't need it. It's ne",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 3.6119831747782882e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "vess"
+  },
+  {
+    "text_preview": "I confirm this is a problem on Vista Ultimate as well.\nThe software seems to work, but blocks are be",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0006732406327500939,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "dkaparis"
+  },
+  {
+    "text_preview": "http://www.time.com/time/health/article/0,8599,1893946,00.html\n\nPortugal, which in 2001 became the f",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0009907910134643316,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "unknown_btctalk"
+  },
+  {
+    "text_preview": "In any case, a bitcoin address is an URI (idenfier), not an URL (locator). By nature Bitcoin has no ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 5.054065695730969e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "davux"
+  },
+  {
+    "text_preview": "It looks like the Alexa site rank has broken the 400,000 barrier.\nhttp://www.alexa.com/search?q=http",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.0623421733034775e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Stone Man"
+  },
+  {
+    "text_preview": "Hello, great work!\nLet me just say that I love the idea behind this project, and support it fully. I",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 3.5699022191693075e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "RogerRabbit"
+  },
+  {
+    "text_preview": "Seeing a 65 Mhash/s jump to 715 Mhash/s at the same core/mem with the newest poclbm_py2exe_20110127.",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.00016410437820013613,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "sc8nt4u"
+  },
+  {
+    "text_preview": "My bank -> Online computer store -> new graphics card -> a slow stream of bitcoins\nDoes this count? ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 5.715004363082699e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "teknohog"
+  },
+  {
+    "text_preview": "It would be silly to sell 10k all at once in one market. MTGOX can absorb 6k above .05 right now.\ned",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.596777656232007e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "FreeMoney"
+  },
+  {
+    "text_preview": "MultiSig page:\nhttps://coinb.in/multisig/\nOur P2P Fiat-BTC Exchange is based on 2of2 MultiSig and th",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 4.1486492818876286e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "k99"
+  },
+  {
+    "text_preview": "Just as the subject says.\nA lot of new users (or those that want to run multiple computers with the ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.648084409884177e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "knightmb"
+  },
+  {
+    "text_preview": "I have had people buy bitcoins from me and sell bitcoins to me. Supply and demand, albeit only a sma",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 4.4162138124193007e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "NewLibertyStandard"
+  },
+  {
+    "text_preview": "You misunderstand my position. I am not saying the government should be doing this. They shouldnt. B",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 8.92099365046306e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "FreedomFirst"
+  },
+  {
+    "text_preview": "Theoretically, your plan is perfect, but in practice you need to factor in human error.\nWikileaks is",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 4.092911240149988e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Timo Y"
+  },
+  {
+    "text_preview": "I have access to a couple of VPS instances running on Xen that often have a LOT of spare cycles. Sin",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.9293013053811592e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "lachesis"
+  },
+  {
+    "text_preview": "This thread is already 6 years now and it somehow bump again on this year which is like grave diggin",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.79830649926771e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Zadicar"
+  },
+  {
+    "text_preview": "The problem is that wxWidgets includes a bunch of \"core\" functionality that isn't related to GUI wid",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0007931760628707707,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "dete"
+  },
+  {
+    "text_preview": "OK, so then why did I generate my first transaction in a day and a half and my second transaction ha",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.3315579963091295e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "claw"
+  },
+  {
+    "text_preview": "Hello,\nGreat to see that the minor FreeBSD-specific changes have been added to the SVN. Thanks!\nI am",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 5.955708911642432e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "The Madhatter"
+  },
+  {
+    "text_preview": "Hello.. I was wondering if you guys knew if having your CPU running at 100% usage while generating c",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 5.6602821132401004e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "venom"
+  },
+  {
+    "text_preview": "If you are hosting the 'private' game on pokerTH then you have to play in it. PokerTH uses a RNG jus",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.6425859687151387e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "BitcoinFX"
+  },
+  {
+    "text_preview": "I appreciate the offer davidonpda. \u00a0Thufir and Teppy have also offered to help. \u00a0Thank you guys.\nFor",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0001670140482019633,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "dwdollar"
+  },
+  {
+    "text_preview": "Mm, BOP (Bitcoin Outreach Program) - Maybe we can start it. \u00a0Hanson? \u00a0Huh? \u00a0What? \u00a0Offtopic? o_O\nhtt",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.2082498617237434e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "mizerydearia"
+  },
+  {
+    "text_preview": "I will give you some coins to start out with if you post your address.\u00a0 I think generating faster wo",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.018748728558421135,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "laszlo"
+  },
+  {
+    "text_preview": "Has there been a concerted effort to attack, subvert, or break Bitcoin? One way to test that it is s",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.1772316383940051e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Bitcoiner"
+  },
+  {
+    "text_preview": "Using\nhttp://127\n.0.0.1:[bitcoinwebport]/whatever is a bit limiting, it requires that the user has t",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0012644219677895308,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "darkskiez"
+  },
+  {
+    "text_preview": "Just the job Sabunir. Thanks !\nDidn't show up with Adblock Plus on for me either, of course, NLS, th",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 5.054065695730969e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "BitcoinFX"
+  },
+  {
+    "text_preview": "This has been discussed in many other threads, but it might be a good idea to do again, to avoid mis",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 8.268492092611268e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "nelisky"
+  },
+  {
+    "text_preview": "Running bitcoin feels like its indexing my harddisk. I will probably stop running the client, becaus",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 4.339894530858146e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "farmer_boy"
+  },
+  {
+    "text_preview": "As noted in\nthis wiki page\nand in\nthis satoshi post\n, the -paytxfee switch may be employed give your",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0001392770209349692,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "jgarzik"
+  },
+  {
+    "text_preview": "The correct answer is \"everything ever\".\nThis is very counterintuitive and I don't really understand",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0004173157794866711,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "kermit"
+  },
+  {
+    "text_preview": "It would be silly to sell 10k all at once in one market. MTGOX can absorb 6k above .05 right now.\ned",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.596777656232007e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "FreeMoney"
+  },
+  {
+    "text_preview": "Good News. After much delay my BitcoinFX Exchange is now funded with $50 LR.\nI have also set-up a Mi",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.4061025669652736e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "BitcoinFX"
+  },
+  {
+    "text_preview": "Your remedy supposedly lies in finding out what a \"US Citizen\" really is and what your obligations a",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.640820528336917e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "The Madhatter"
+  },
+  {
+    "text_preview": "I'm not certain that accounts for the very slow startup.\nI set up bitcoin on a new (relatively fast)",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0005092656938359141,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Ground Loop"
+  },
+  {
+    "text_preview": "In addition to the semi-automatic Bitcoin<->PayPal exchange service I'm working on right now, I gues",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 8.124428859446198e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "sirius"
+  },
+  {
+    "text_preview": "Mm, BOP (Bitcoin Outreach Program) - Maybe we can start it. \u00a0Hanson? \u00a0Huh? \u00a0What? \u00a0Offtopic? o_O\nhtt",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.2082498617237434e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "mizerydearia"
+  },
+  {
+    "text_preview": "Quality and fantastic Sabunir ! I really like them.\nSuggestions:\n(1) The background 'fade' effect so",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 3.2563121976636467e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "BitcoinFX"
+  },
+  {
+    "text_preview": "Babylon: Not true.\u00a0 The software stores them in the base bitcoin value.\u00a0 All transactions are done w",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0006851712823845446,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Quantumplation"
+  },
+  {
+    "text_preview": "'Seeing the farm' is the realization that you are a slave. It should cause a change in your percepti",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 9.78004936769139e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "The Madhatter"
+  },
+  {
+    "text_preview": "People do not realize how much fear controls them.\u00a0 What they also do not realize is that the big bu",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0002679052122402936,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "shanerc563"
+  },
+  {
+    "text_preview": "Has this been decided?\n\nbitcoin:\nIt's as simple as that.\nEverything after the colon is negotiable...",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0009528705850243568,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Bruce Wagner"
+  },
+  {
+    "text_preview": "Wow, pecunix, i have never heard about that payment method, maybe that is because nobody is using th",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 7.872748710724409e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Alns"
+  },
+  {
+    "text_preview": "Imma post a link to:\nTopic: Why do we talk about Laszlos pizza but not the 1000 BTC poker tournament",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 5.338155460776761e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "BitcoinFX"
+  },
+  {
+    "text_preview": "I think I've found the problem with the frequent market crashes.\u00a0 It will be another day or two befo",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.010120623745024204,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "dwdollar"
+  },
+  {
+    "text_preview": "It's a bad idea to try to break the \"in-production\" bitcoin network.\nIf anybody is starting serious ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.1993562313582515e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Gavin Andresen"
+  },
+  {
+    "text_preview": "This post is meant to delve into the monetary aspects of Bitcoin, and the differences between Bitcoi",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.00021070436923764646,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Bitcoiner"
+  },
+  {
+    "text_preview": "Thanks for the tip re: backupwallet.\u00a0 That's not listed in the online API documentation.\nTwo questio",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.014406196773052216,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Beelzebuddy"
+  },
+  {
+    "text_preview": "The correct answer is \"everything ever\".\nThis is very counterintuitive and I don't really understand",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0004173157794866711,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "kermit"
+  },
+  {
+    "text_preview": "The total money supply of USD, for instance, is somewhere between\u00a0 $1 Trillion and $10 Trillion:\nhtt",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.4912718143023085e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Timo Y"
+  },
+  {
+    "text_preview": "The original idea was one where all transactions are conducted over a website only accessible via To",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 7.309600960070384e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "teppy"
+  },
+  {
+    "text_preview": "This is a definite improvement over no escrow. It's just a shame there's nothing that can be done to",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 5.616233465843834e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Inedible"
+  },
+  {
+    "text_preview": "carp: No, not in the transaction. Either you create a secure transaction or a normal transaction.\nIf",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.00012931562378071249,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "sebastian"
+  },
+  {
+    "text_preview": "I emailed support and asked them. (I've been a customer for 4 years. I was also the one who suggeste",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 3.314542709631496e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "The Madhatter"
+  },
+  {
+    "text_preview": "Something to consider is that the peer-to-peer network load may end up bogging down well before this",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.3657993804372381e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "RHorning"
+  },
+  {
+    "text_preview": "So, I finally got my client to start generating and after I got my laptop optimized for the task and",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.195935965370154e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "AgoraMutual"
+  },
+  {
+    "text_preview": "Exchangers are not going to stick around until there is real commerce happening within BC. I mean, w",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.3595641778229037e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "The Madhatter"
+  },
+  {
+    "text_preview": "Hi, yesterday I stumbled upon this great payment option.\nI read my way through many sites but now I ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.0185076209600084e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "SmokeTooMuch"
+  },
+  {
+    "text_preview": "Initially it downloads 'blocks' from other peers. It does this in bundles of 500, but this still inv",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0001468177215429023,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "m0mchil"
+  },
+  {
+    "text_preview": "Yeah, I2P is much easier to automate in that regard. I could setup some .onions manually and post th",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.00013499250053428113,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "The Madhatter"
+  },
+  {
+    "text_preview": "I'm running Ubuntu Lucid (32 bit), all packages up to date.\u00a0 I had run bitcoin 0.2 previously, and j",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0001015038214973174,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "singpolyma"
+  },
+  {
+    "text_preview": "I tried about 6 different cheap VPS providers and the best performance/cost so far is $11 for 8Mhash",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 6.108279194450006e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "nimnul"
+  },
+  {
+    "text_preview": "Encrypting your home directory is always a good idea but one must be reminded that it's more likely ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 8.076349331531674e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "gohan"
+  },
+  {
+    "text_preview": "Right, but changing it NOW, regardless of if we use it would still require the users to upgrade (\"br",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.7914731617784128e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Quantumplation"
+  },
+  {
+    "text_preview": "Use PayPal only if you like having your funds frozen. They also don't allow currency conversion and ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 6.179393494676333e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "The Madhatter"
+  },
+  {
+    "text_preview": "Setting up recurring payment schemes is a different problem, IMHO, and one that deserves to be dealt",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 4.3818465655931504e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "konaya"
+  },
+  {
+    "text_preview": "the thing is that the initial blockchain download is quite slow for most of the users.\nmostly becaus",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0025102407671511173,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "SmokeTooMuch"
+  },
+  {
+    "text_preview": "Happiness is an emotional state, a state of mind. Why should we care about such measure when we can ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.784813321137335e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "kiba"
+  },
+  {
+    "text_preview": "I think it would be very useful for those who think hoarding could ultimately be profitable for the ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.1410120350774378e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "RHorning"
+  },
+  {
+    "text_preview": "And the proposed solution is to pre-generate a lot of future addresses and store them in your wallet",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.00013407297956291586,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "wscott"
+  },
+  {
+    "text_preview": "Which one would you use for buying or selling BTC internationally? Do you have experience using some",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 5.692723448191828e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "sirius"
+  },
+  {
+    "text_preview": "I wanted to document an issue I encountered when first installing and using the Bitcoin software.\nDe",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.6964426322374493e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "BitcoinFX"
+  },
+  {
+    "text_preview": "There are many questions still unclear about bitcoin. We have yet to see a lightweight client, freed",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 5.529162535822252e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "m0mchil"
+  },
+  {
+    "text_preview": "I'm running Ubuntu Lucid (32 bit), all packages up to date.\u00a0 I had run bitcoin 0.2 previously, and j",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0001011081476463005,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "singpolyma"
+  },
+  {
+    "text_preview": "well, leaning on your customers wouldn't work, since they don't know anything about you except for a",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 9.553496965963859e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Babylon"
+  },
+  {
+    "text_preview": "I'm not going to get chance to reply properly until this evening, but just want to say a few quick t",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.2821697598374158e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Traktion"
+  },
+  {
+    "text_preview": "OK So, I tried to set-up a sudo-anonymous crypto 'Bitcoin Bank' experiment using Tor.\nWhilst it was ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.207672175951302e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "BitcoinFX"
+  },
+  {
+    "text_preview": "The US Government has made a position, you should be aware of it...\nand your exchange seems to be do",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 3.982512680522632e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "ihrhase"
+  },
+  {
+    "text_preview": "Hi all, my name is Alessandro and I am from Italy; I just read about bitcoin on slashdot and became ",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.5084224003203417e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "alex_l"
+  },
+  {
+    "text_preview": "I wanted to document an issue I encountered when first installing and using the Bitcoin software.\nDe",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.6964426322374493e-05,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "BitcoinFX"
+  },
+  {
+    "text_preview": "Bitcoin is a great currency that ensures that your wealth with have mostly preserved value as long a",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.7330515902358457e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "MingLee"
+  },
+  {
+    "text_preview": "I appreciate the offer davidonpda. \u00a0Thufir and Teppy have also offered to help. \u00a0Thank you guys.\nFor",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 0.0001663630100665614,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "dwdollar"
+  },
+  {
+    "text_preview": "But then everyon had to do this, because:\nIf you buy coins this way, you also have to sell them this",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 2.6577248490866623e-07,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "SmokeTooMuch"
+  },
+  {
+    "text_preview": "volatility is being reduced as market cap is growing, you may think a increase of 50 usd in value is",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 1.1499611218823702e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "Chikako"
+  },
+  {
+    "text_preview": "I'm open to all offers.\nBut, let me do some math.\nSelling 10,000 BTC on BitcoinMarket right now woul",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 4.1736361708899494e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "vess"
+  },
+  {
+    "text_preview": "There is one, at least, participant in this forum that is concerned with hoarding of BC, please allo",
+    "true_label": "not_satoshi",
+    "pred_label": "not_satoshi",
+    "satoshi_prob": 6.527675395773258e-06,
+    "correct": true,
+    "source": "bitcointalk",
+    "author": "ihrhase"
   }
 ]
