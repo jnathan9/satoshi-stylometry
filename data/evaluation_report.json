@@ -1,0 +1,39 @@
+{
+  "test_results": {
+    "eval_loss": 0.0898086428642273,
+    "eval_accuracy": 0.9942857142857143,
+    "eval_f1": 0.9887640449438202,
+    "eval_precision": 1.0,
+    "eval_recall": 0.9777777777777777,
+    "eval_runtime": 1.1274,
+    "eval_samples_per_second": 155.222,
+    "eval_steps_per_second": 5.322,
+    "epoch": 10.0
+  },
+  "golden_results": {
+    "eval_loss": 0.03814650699496269,
+    "eval_accuracy": 0.9914285714285714,
+    "eval_f1": 0.9832402234636871,
+    "eval_precision": 0.9887640449438202,
+    "eval_recall": 0.9777777777777777,
+    "eval_runtime": 2.2206,
+    "eval_samples_per_second": 157.617,
+    "eval_steps_per_second": 4.954,
+    "epoch": 10.0
+  },
+  "confusion_matrix": [
+    [
+      259,
+      1
+    ],
+    [
+      2,
+      88
+    ]
+  ],
+  "golden_accuracy": 0.9914285714285714,
+  "satoshi_accuracy": 0.9777777777777777,
+  "non_satoshi_accuracy": 0.9961538461538462,
+  "satoshi_prob_mean": 0.9776718204452967,
+  "non_satoshi_prob_mean": 0.0035934051446299864
+}

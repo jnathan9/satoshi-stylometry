@@ -1,0 +1,902 @@
+[
+  {
+    "text": "When you send to a bitcoin address, you don't connect to the recipient.  You send the transaction to the network the same way you relay transactions.  There's no distinction between a transaction you originated and one you received from another node that you're relaying in a broadcast.  With a very small network though, someone might still figure it out by process of elimination.  It'll be better when the network is larger.\nIf you send by IP, the recipient sees you because you connect to their IP.  You could use TOR to mask that.\nYou could use TOR if you don't want anyone to know you're even using Bitcoin.\nBitcoin is still very new and has not been independently analysed.  If you're serious about privacy, TOR is an advisable precaution.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Repost: Request: Make this anonymous?",
+    "original_date": "2010-02-06T21:06:32.000Z",
+    "chunk_index": 0,
+    "word_count": 134
+  },
+  {
+    "text": "Bitcoin client and website translation\n49\nFrom:\nsatoshi\nSubject:\nBitcoin client and website translation\nDate:\nFebruary 8, 2010 at 16:10:37 UTC\nIt's much easier to have a single binary and multiple .mo files.  It's too much maintenance work to have lots of build variations.  Once the software support is implemented, anyone could contribute translations.\nwxWidgets uses the gettext standard.  You use the gettext tools or something like poedit to create a .po file by scanning the sourcefiles for strings and editing the translations into the .po file, then compile it into a .mo file.  The program loads the .mo file at runtime and reskins all the strings.  Additional languages can be added to an existing program by adding .mo files without recompiling the program.\nOn Windows, the .mo files would go in a lang subdirectory in the directory where the EXE is located.\nRight now I'm working on JSON-RPC and command line support, but when I'm finished with that I hope to do this next.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Bitcoin client and website translation",
+    "original_date": "2010-02-08T16:10:37.000Z",
+    "chunk_index": 0,
+    "word_count": 170
+  },
+  {
+    "text": "Any backup process/procedure would just be a stopgap until there's time to properly work on coding solutions in software.  We can try to use words to help the situation until code gets there.\nThe main backup improvement will be pre-made pool of keys, and a rescan at load to scrape missed transactions from the block history.  Then a backup will last forward for a long time.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Need a post writing up some things users should know",
+    "original_date": "2010-08-26T00:44:05.000Z",
+    "chunk_index": 0,
+    "word_count": 71
+  },
+  {
+    "text": "I don't get how it let you send if it was not matured.  Your balance would have been lower than the amount.  It would have said balance 0.01, right?  If I try that it says \"you don't have enough money\" or \"Insufficient funds\" from the command line.\nHow many blocks did it say it had left to mature when you sent?\nThere's a chance it might still go through.\nHave you copied or moved your wallet.dat in any way?\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Bug: \"Immature\" coins lost in wallet.dat during transaction",
+    "original_date": "2010-07-30T19:19:05.000Z",
+    "chunk_index": 0,
+    "word_count": 84
+  },
+  {
+    "text": "Version 0.3.9 rc1, please test\n355\nFrom:\nsatoshi\nSubject:\nVersion 0.3.9 rc1, please test\nDate:\nAugust 13, 2010 at 17:40:00 UTC\nHere's a test build if you'd like to help test before 0.3.9 is released.\n(or if you'd rather get upgrading out of the way now instead of waiting)\nDownloads:  (binaries only)\nhttp://www.bitcoin.org/download/bitcoin-0.3.9.rc1-win32.zip\n(\nhttp://www.bitcoin.org/download/bitcoin-0.3.9.rc1-linux.tar.gz\n)\nSHA1 a36ea00cce27b4b083755df73a3d1e5e5729884e bitcoin-0.3.9.rc1-win32.zip\nSHA1 bbb333b0ea57302740ad1bb9948520d00f884f9d bitcoin-0.3.9.rc1-linux.tar.gz\nEdit:\nLinux please test rc2 instead.  This adds a -4way switch for tcatm's 4-way SSE2.  This will only be for Linux:\nhttp://www.bitcoin.org/download/bitcoin-0.3.9.rc2-linux.tar.gz\nSHA1 47d9998f7d15fe81234a5c89a542da9d0664df40 bitcoin-0.3.9.rc2-linux.tar.gz\nPlease report back your results\nhttp://bitcointalk.org/index.php?topic=820\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Version 0.3.9 rc1, please test",
+    "original_date": "2010-08-13T17:40:00.000Z",
+    "chunk_index": 0,
+    "word_count": 98
+  },
+  {
+    "text": "0.3.13 RC1 for Windows, please test\n466\nFrom:\nsatoshi\nSubject:\n0.3.13 RC1 for Windows, please test\nDate:\nSeptember 30, 2010 at 17:04:15 UTC\n0.3.13 release candidate, to be released soon so please test:\nhttp://www.bitcoin.org/download/bitcoin-0.3.13-rc1-win32-setup.exe\n- don't count or spend payments until they have 1 confirmation\n\nhttp://bitcointalk.org/index.php?topic=1306.0\n- internal version number from 312 to 31300\n- only accept transactions sent by IP address if -allowreceivebyip is specified\n- dropped DB_PRIVATE Berkeley DB flag\n- fix problem sending the last cent with sub-cent fractional change\n- auto-detect whether to use 128-bit 4-way SSE2 on Linux\nGavin Andresen:\n- option -rpcallowip= to accept json-rpc connections from another machine\n- clean shutdown on SIGTERM on Linux\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "0.3.13 RC1 for Windows, please test",
+    "original_date": "2010-09-30T17:04:15.000Z",
+    "chunk_index": 0,
+    "word_count": 117
+  },
+  {
+    "text": "Bitcoin open source implementation of P2P currency\n4\nFrom:\nSatoshi Nakamoto\nSubject:\nBitcoin open source implementation of P2P currency\nDate:\nMarch 7, 2014 at 01:17:00 UTC\nI am not Dorian Nakamoto.\nDisclaimer:\nBecause this post was made years after Satoshi’s acknowledged disappearance, its authenticity demands scrutiny. In one instance, Satoshi’s P2P Foundation account was compromised due to an email hack in September 2014, although there is currently no clear indication that the account was compromised at the prior time of this post. Read more about the hack \nhere\n.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_p2pfoundation",
+    "original_title": "Bitcoin open source implementation of P2P currency",
+    "original_date": "2014-03-07T01:17:00.000Z",
+    "chunk_index": 0,
+    "word_count": 94
+  },
+  {
+    "text": "Repost: Linux/UNIX compile\n12\nFrom:\nsatoshi\nSubject:\nRepost: Linux/UNIX compile\nDate:\nNovember 27, 2009 at 17:17:22 UTC\n--------------------\nscott:\nLinux/UNIX compile\nPosted:Thu 08 of Oct, 2009 (05:49 UTC)\nCan we get instructions or modifications to compile and install BitCoin on Linux? A command line version would be great.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Repost: Linux/UNIX compile",
+    "original_date": "2009-11-27T17:17:22.000Z",
+    "chunk_index": 0,
+    "word_count": 53
+  },
+  {
+    "text": "The SVN version now uses IRC first and if that fails it falls back to a hardcoded list of seed nodes.  There are enough seed nodes now that many of them should still be up by the time of the next release.  It only briefly connects to a seed node to get the address list and then disconnects, so your connections drop back to zero for while.  At that point, be patient.  It's only slow to get connected the first time.\nThis means TOR users won't need to -addnode anymore, it'll get connected automatically.  \nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: On IRC bootstrapping",
+    "original_date": "2010-06-18T17:28:18.000Z",
+    "chunk_index": 0,
+    "word_count": 99
+  },
+  {
+    "text": "You figured it out faster than I could post a reply.  \nIt looks like laszlo's build of Berkeley DB has database/log.* files that are not compatible with ours.  The .dat files are fine, their format shouldn't ever change.  All data is stored in the .dat files.  All your own data is stored in wallet.dat.  If you had waited for it to redownload the block chain, your missing transactions and generateds would have appeared as the block chain reached the point where those transactions were recorded.\nWhen you copied the directory except log.0000000002, that's the best solution.  You should be good now.\nThe database/log.* files only contain temporary database data.  If you exited bitcoin normally the last time, not exited by forced terminating it or crashing, then the database/log.* files can normally be deleted safely.  They're only used so that if the database is in the middle of a transaction when the computer crashes or the program is killed or crashes, then it could recover without losing data.\nPlease keep running v0.3 if at all possible, don't go back to v0.2.10.\nAnyone else who hits this problem, move the database\\log.000000000* files somewhere else.  (if it works fine after that, you can delete them later)\nI'm reluctant to make the installer delete or move those files.  If the previous run was stopped by crashing or killed, that would be the wrong thing to do.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: 0.3 almost ready",
+    "original_date": "2010-06-22T19:46:23.000Z",
+    "chunk_index": 0,
+    "word_count": 237
+  },
+  {
+    "text": "So that was responsible for keeping blocks from downloading?\nThe link: \"Win32 CPU Cycles vs 'Live Protection' Engines\"\nFor BitcoinFX, Live Protection was keeping it from getting CPU for generating coins.  You said your friend was getting 1400-1600 khash/s, so it was getting CPU.  I guess Live Protection must have been blocking some other part of the program then?\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: No blocks downloaded... why?",
+    "original_date": "2010-07-14T16:22:03.000Z",
+    "chunk_index": 0,
+    "word_count": 64
+  },
+  {
+    "text": "Here is a paper that claims to find SHA-1 collisions in 2^52 crypto operations. And optimally secure hash would take 2^80 operations. 2^52 time is still large, but it is getting into cluster and botnet range.\n2^80 is if you can use a birthday attack.  You can't use a birthday attack for this, so the difficulty is the full 2^160 bits.  Although, if you were trying to crack any one of 1 million (2^20) transactions, you could do a partial birthday attack 2^160/2^20 = 2^140.\nBitcoin Addresses are the only place where 160-bit hash is used.  Everything else is SHA-256.  They're calculated as:\nbitcoinaddress = RIPEMD-160(SHA-256(publickey))\nCorrect me if I'm wrong (please, and I'll gladly eat crow) but I think it would be hard to use an analytical attack on RIPEMD-160 in this case.  An analytical attack prescribes a certain range or pattern of inputs to try that will greatly increase your chance of finding a collision.  Here, you don't have that kind of control over RIPEMD-160's input, because the input is the output of SHA-256.  If an analytical attack helps you find an input to RIPEMD-160 that produces a collision, what are you going to do with it?  You still have to get SHA-256 to output that value, so you would still have to break SHA-256 too.\nFor brute force, RIPEMD-160(SHA-256(x)) is no stronger than RIPEMD-160 alone.  But for analytical attack, it seems like you must analytical attack both RIPEMD-160 and SHA-256.  If I'm wrong, then the strength is the same as RIPEMD-160 and the SHA-256 only serves as one round of key strengthening.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Stealing Coins",
+    "original_date": "2010-07-25T20:48:01.000Z",
+    "chunk_index": 0,
+    "word_count": 270
+  },
+  {
+    "text": "I uploaded windows 0.3.1 rc1 and linux 0.3.1 rc2 to SourceForge and updated the links on the homepage.\nYou don't need to update to 0.3.1 unless you had one of the problems listed in the first post.  If you've got it working already, stay with 0.3.0.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Bitcoin 0.3.1 released",
+    "original_date": "2010-07-16T21:06:57.000Z",
+    "chunk_index": 0,
+    "word_count": 51
+  },
+  {
+    "text": "The reason I didn't use protocol buffers or boost serialization is because they looked too complex to make absolutely airtight and secure.  Their code is too large to read and be sure that there's no way to form an input that would do something unexpected.\nI hate reinventing the wheel and only resorted to writing my own serialization routines reluctantly.  The serialization format we have is as dead simple and flat as possible.  There is no extra freedom in the way the input stream is formed.  At each point, the next field in the data structure is expected.  The only choices given are those that the receiver is expecting.  There is versioning so upgrades are possible.\nCAddress is about the only object with significant reserved space in it.  (about 7 bytes for flags and 12 bytes for possible future IPv6 expansion)\nThe larger things we have like blocks and transactions can't be optimized much more for size.  The bulk of their data is hashes and keys and signatures, which are uncompressible.  The serialization overhead is very small, usually 1 byte for size fields.\nOn Gavin's idea about an existing P2P broadcast infrastructure, I doubt one exists.  There are few P2P systems that only need broadcast.  There are some libraries like Chord that try to provide a distributed hash table infrastructure, but that's a huge difficult problem that we don't need or want.  Those libraries are also much harder to install than ourselves.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Protocol Buffers for Bitcoin",
+    "original_date": "2010-08-02T20:22:08.000Z",
+    "chunk_index": 0,
+    "word_count": 247
+  },
+  {
+    "text": "Added some DoS limits, removed safe mode (0.3.19)\n543\nFrom:\nsatoshi\nSubject:\nAdded some DoS limits, removed safe mode (0.3.19)\nDate:\nDecember 12, 2010 at 18:22:33 UTC\nThere's more work to do on DoS, but I'm doing a quick build of what I have so far in case it's needed, before venturing into more complex ideas.  The build for this is version 0.3.19.\n- Added some DoS controls\nAs Gavin and I have said clearly before, the software is not at all resistant to DoS attack.  This is one improvement, but there are still more ways to attack than I can count.  \nI'm leaving the -limitfreerelay part as a switch for now and it's there if you need it.\n- Removed \"safe mode\" alerts\n\"safe mode\" alerts was a temporary measure after the 0.3.9 overflow bug.  We can say all we want that users can just run with \"-disablesafemode\", but it's better just not to have it for the sake of appearances.  It was never intended as a long term feature.  Safe mode can still be triggered by seeing a longer (greater total PoW) invalid block chain.\nBuilds:\nhttp://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.19/\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Added some DoS limits, removed safe mode (0.3.19)",
+    "original_date": "2010-12-12T18:22:33.000Z",
+    "chunk_index": 0,
+    "word_count": 194
+  },
+  {
+    "text": "Quote from: RHorning on July 15, 2010, 10:29:28 PM\nI don't see either happening, although it did get put into the \"Startup\" folder.  That is so Windows 95ish (just kidding..... Microsoft has so screwed this up that it isn't even funny).  I would recommend the registry settings for a number of reasons including the fact that most software puts the startup in that location, even though I personally find the startup folder to be more attractive and how most software on Windows \nshould behave\n.\nIt could go either way.  The Startup folder has the advantage that the end user can see it and manually remove it with the regular UI (not regedit) if they already blew away the Bitcoin directory and its uninstaller.  Bitcoin will not relentlessly keep re-adding it if you delete it manually.\nOpenOffice is another example of something that puts its link in the Startup folder.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: 0.3.1 release candidate, please test",
+    "original_date": "2010-07-15T23:23:04.000Z",
+    "chunk_index": 0,
+    "word_count": 155
+  },
+  {
+    "text": "Faster initial block download (5x faster)\n258\nFrom:\nsatoshi\nSubject:\nFaster initial block download (5x faster)\nDate:\nJuly 23, 2010 at 18:24:56 UTC\nBy making some adjustments to the database settings, I was able to make the initial block download about 5 times faster.  It downloads in about 30 minutes.\nThe database default had it writing each block to disk synchronously, which is not necessary.  I changed the settings to let it cache the changes in memory and write them out in a batch.  Blocks are still written transactionally, so either the complete change occurs or none of it does, in either case the data is left in a valid state.\nI only enabled this change during the initial block download.  When you come within 2000 blocks of the latest block, these changes turn off and it slows down to the old way.\nI built a test build if you'd like to start using it:\nhttp://www.bitcoin.org/download/bitcoin-0.3.2.5-win32.zip\nhttp://www.bitcoin.org/download/bitcoin-0.3.2.5-linux.tar.gz\nThese binaries also include Gavin Andresen's JSON-RPC HTTP authentication feature and the other important security improvements from 0.3.2.\nI've been running a test over the last 24 hours that kills and restarts it randomly every 2-60 seconds (poor thing) while it's trying to do an initial block download and it's been fine.\nThere are no changes to the way it handles wallet.dat.  This change is only for blk*.dat and the non-critical addr.dat.  You can always delete blk*.dat if it gets screwed up and let it re-download.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Faster initial block download (5x faster)",
+    "original_date": "2010-07-23T18:24:56.000Z",
+    "chunk_index": 0,
+    "word_count": 248
+  },
+  {
+    "text": "That's surprising that we've never heard of that before now.\nMaybe you're the first person to ever run it on Vista  \n\nI have to guess it has something to do with your display color depth selection.  e.g. 8-bit, 16-bit, 24-bit, 32-bit, what is it?  Do you have a weird video card, display setup or running it on a tablet or mobile or something?\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: \"SetIcons(): icon bundle doesn't contain any suitable icon\"",
+    "original_date": "2010-07-15T22:18:26.000Z",
+    "chunk_index": 0,
+    "word_count": 68
+  },
+  {
+    "text": "Quote from: gavinandresen on July 23, 2010, 03:11:45 PM\nQuestion for everybody:  should I add a section to the wiki page describing, in detail, how to do HTTP Basic authentication?  PHP and Python make is really easy-- just use the \nhttp://user:pass@host:port/\n URL syntax.\nYes, I think that would be really good so each dev doesn't have to figure it out themselves.  We need a simple example for each of Python, PHP and Java importing the json-rpc library and using it to do a getinfo or something, including doing the http authentication part.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: JSON-RPC password",
+    "original_date": "2010-07-23T17:07:40.000Z",
+    "chunk_index": 0,
+    "word_count": 97
+  },
+  {
+    "text": "Quote from: llama on July 01, 2010, 10:21:47 PM\nHowever, if something happened and the signatures were compromised (perhaps integer factorization is solved, quantum computers?), then even agreeing upon the last valid block would be worthless.\nTrue, if it happened suddenly.  If it happens gradually, we can still transition to something stronger.  When you run the upgraded software for the first time, it would re-sign all your money with the new stronger signature algorithm.  (by creating a transaction sending the money to yourself with the stronger sig)\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Major Meltdown",
+    "original_date": "2010-07-10T13:36:17.000Z",
+    "chunk_index": 0,
+    "word_count": 92
+  },
+  {
+    "text": "Bitcoin P2P e-cash paper\n11\nFrom:\nSatoshi Nakamoto\nSubject:\nBitcoin P2P e-cash paper\nDate:\nNovember 13, 2008 at 22:56:55 UTC\nJames A. Donald wrote:\n> It is not sufficient that everyone knows X. We also\n> need everyone to know that everyone knows X, and that\n> everyone knows that everyone knows that everyone knows X\n> - which, as in the Byzantine Generals problem, is the\n> classic hard problem of distributed data processing.\nThe proof-of-work chain is a solution to the Byzantine Generals' Problem. I'll try to rephrase it in that context.\nA number of Byzantine Generals each have a computer and want to attack the King's wi-fi by brute forcing the password, which they've learned is a certain number of characters in length. Once they stimulate the network to generate a packet, they must crack the password within a limited time to break in and erase the logs, otherwise they will be discovered and get in trouble. They only have enough CPU power to crack it fast enough if a majority of them attack at the same time.\nThey don't particularly care when the attack will be, just that they all agree. It has been decided that anyone who feels like it will announce a time, and whatever time is heard first will be the official attack time. The problem is that the network is not instantaneous, and if two generals announce different attack times at close to the same time, some may hear one first and others hear the other first.\nThey use a proof-of-work chain to solve the problem. Once each general receives whatever attack time he hears first, he sets his computer to solve an extremely difficult proof-of-work problem that includes the attack time in its hash. The proof-of-work is so difficult, it's expected to take 10 minutes of them all working at once before one of them finds a solution. Once one of the generals finds a proof-of-work, he broadcasts it to the network, and everyone changes their current proof-of-work computation to include that proof-of-work in the hash they're working on. If anyone was working on a different attack time, they switch to this one, because its proof-of-work chain is now longer.\nAfter two hours, one attack time should be hashed by a chain of 12 proofs-of-work. Every general, just by verifying the difficulty of the proof-of-work chain, can estimate how much parallel CPU power per hour was expended on it and see that it must have required the majority of the computers to produce that much proof-of-work in the allotted time. They had to all have seen it because the proof-of-work is proof that they worked on it. If the CPU power exhibited by the proof-of-work chain is sufficient to crack the password, they can safely attack at the agreed time.\nThe proof-of-work chain is how all the synchronisation, distributed database and global view problems you've asked about are solved.\n---------------------------------------------------------------------\nThe Cryptography Mailing List\nUnsubscribe by sending \"unsubscribe cryptography\" to majordomo at metzdowd.com\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "email_cryptography",
+    "original_title": "Bitcoin P2P e-cash paper",
+    "original_date": "2008-11-13T22:56:55.000Z",
+    "chunk_index": 0,
+    "word_count": 507
+  },
+  {
+    "text": "When using proxy port 9050, it will only make one attempt to connect to IRC, then give up, since it knows it will probably always fail because IRC servers ban all the TOR exit nodes.  If you're using another port, it would assume it might be a regular old normal proxy and would keep retrying IRC at longer and longer intervals.  You should not use Polipo or Privoxy as those are http filters and caches that would corrupt Bitcoin's messages if they make any changes.  Bitcoin might be trying to overcome it by reconnecting.  You should use port 9050.\nAs riX says, the \"is giving Tor only an IP address. Apps that do DNS...\" warnings are nothing to worry about.  Bitcoin doesn't use DNS at all in proxy mode.\nSince Bitcoin can't get through to IRC through Tor, it doesn't know which nodes are currently online, so it has to try all the recently seen nodes.  It tries to conserve connection attempts as much as possible, but also people want it to connect quickly when they start it up and reconnect quickly if disconnected.  It uses an algorithm where it tries an IP less and less frequently the longer ago it was successful connected.  For example, for a node it saw 24 hours ago, it would wait 5 hours between connection attempts.  Once it has at least 2 connections, it won't try anything over a week old, and 5 connections it won't try anything over 24 hours old.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: TOR and I2P",
+    "original_date": "2010-02-04T00:30:50.000Z",
+    "chunk_index": 0,
+    "word_count": 253
+  },
+  {
+    "text": "Quote from: knightmb on July 15, 2010, 07:37:10 PM\nOn Windows, the priority of the Coin Generation is still net for normal. If you run BitCoin in Generate Coin mode, then load up something to eat up all the CPU (like CPU hog for example: \nhttp://www.microtask.ca/cpuhog.html\n) you'll see that both BitCoin and CPU hog share the CPU 50/50 instead of CPU Hog taking all the CPU and BitCoin running only on idle/low process. The khash/s is also reduced in half, so further evidence that the threads are not running in a lower than normal prioirty.\nI was not able to reproduce this.  I have dual-proc, so I ran two memory hogs.  Bitcoin got 0% of CPU according to the task manager.  The khash/sec meter stayed stuck because it couldn't get any CPU to update it.\nDo you have dual-proc?  Are you sure you weren't running a single processor hog?\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: 0.3.1 release candidate, please test",
+    "original_date": "2010-07-15T21:40:34.000Z",
+    "chunk_index": 0,
+    "word_count": 155
+  },
+  {
+    "text": "At the moment, it always assumes the incoming port is 8333, so it would tell other bitcoin nodes to connect to router:8333 even if you're redirecting from another port number.\nI'm not in a big hurry to fix this because I can't think of any benefit to having more than one incoming connection port.  If you're providing one incoming port, then you've done your bit to help the network.  Having two incoming ports to the same person doesn't help redundancy.\nIf you have many computers, then using the -connect switch on most of them to connect locally makes more sense.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Setting up multiple bitcoin machines behind NAT",
+    "original_date": "2010-05-16T23:56:03.000Z",
+    "chunk_index": 0,
+    "word_count": 105
+  },
+  {
+    "text": "1-3:\nFor that level of anonymity you need to connect through TOR, which will be possible with version 0.2, which is only a few weeks away.  I'll post TOR instructions at that time.\n4:\nVersion 0.1.5: backup the whole %appdata%\\Bitcoin directory.\nVersion 0.2: you can backup just wallet.dat.\n5:\nNope.  The whole design is all about preventing that from working.\n6:\nThose coins can never be recovered, and the total circulation is less.  Since the effective circulation is reduced, all the remaining coins are worth slightly more.  It's the opposite of when a government prints money and the value of existing money goes down.\n7:\nIt's currently 29,296 blocks.  The circulation is the number of blocks times 50, so the current circulation is 1,464,800 bc.  \nIf you only have 24k blocks, it must not have finished the initial block download.  Exit bitcoin and start it again.  Version 0.2 is better/faster at the initial block download.\n8:\nTypically a few hundred right now.  It's easy now but it'll get harder as the network grows.\n9:\nGood question, it's TCP.  The website needs to be updated to say TCP port 8333.\nThe port forwarding is so other nodes can connect to you, so it helps you stay connected because you are able to be connected with more nodes.  You also need it to receive payments by IP address.\n10:\nNo, the other nodes won't accept that.\nBeing open source means anyone can independently review the code.  If it was closed source, nobody could verify the security.  I think it's essential for a program of this nature to be open source.\n11:\nSlower machines produce fewer coins.  It's proportional to CPU speed.\n12:\nThere are more coming.\n13:\nIt uses a transactional database called Berkeley DB.  It will not lose data in a system crash.  Transactions are written to the database immediately when they're received.\n14:\nFor now, you can just multiply the total blocks by 50.  The Bitcoin network has been running for almost a year now.  The design and coding started in 2007.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Questions about Bitcoin",
+    "original_date": "2009-12-10T20:49:02.000Z",
+    "chunk_index": 0,
+    "word_count": 347
+  },
+  {
+    "text": "Quote from: ShadowOfHarbringer on October 02, 2010, 01:00:07 PM\nThat's nice, however the automatic 4way detection is not working on my Gentoo AMD 64 version client.\nI still have to add the \"-4way\" switch.\nForgot to say, I suspected the detect might not work on 64-bit AMD.  I found it hard to believe but AMD reports a different model number in 64-bit mode.\nCould you grep CPUID your debug.log and tell me what it says?  (and anyone else with 64-bit AMD)  And what AMD chip do you have?\nDo all AMDs that support 64-bit have the better SSE2 hardware also?\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Version 0.3.13",
+    "original_date": "2010-10-03T18:17:06.000Z",
+    "chunk_index": 0,
+    "word_count": 105
+  },
+  {
+    "text": "Then all the CPU time is the generate thread, which definitely runs at the lowest possible priority, idle priority.  It's normal that your CPU meter is 100%.  Since it's idle priority, it won't actually slow anything else down, even though the CPU meter is 100%.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: resource hog",
+    "original_date": "2010-07-15T14:59:00.000Z",
+    "chunk_index": 0,
+    "word_count": 50
+  },
+  {
+    "text": "I'll start thinking about how to do this.\nAt the moment, you can kind of use -connect.  You can use -connect to make it connect to local computers on your LAN, like -connect=192.168.0.100.  If you start it out blank and don't let it connect to the main network, the difficulty is still at the original low difficulty.  If you've port-forwarded though, then outside nodes might still connect inward to you.\nWith -connect it still uses IRC, do you think it shouldn't get on IRC when you're telling it to only connect to specific nodes with -connect?  The main scenario for -connect is where you have a server farm, with two connected to the network and the rest connected to the first two.  In that case, you wouldn't want the -connect computers on IRC.\nvoid ThreadIRCSeed(void* parg)\n{\n    if (mapArgs.count(\"-connect\"))\n        return;\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Security",
+    "original_date": "2010-07-10T12:58:02.000Z",
+    "chunk_index": 0,
+    "word_count": 145
+  },
+  {
+    "text": "It seems like you're inclined to assume everything is wrong more than is actually so.\nWriting the block index is light work.  Building the tx index is much more random access per block.  I suspect reading all the prev txins is what's slow.  Read caching would help that.  It's best if the DB does that.  Maybe it has a setting for how much cache memory to use.\n\n1) bitcoin should be opening databases, not just environment, at program startup, and closing database at program shutdown. \nAlready does that.  See CDB.  The lifetime of the (for instance) CTxDB object is only to support database transactions and to know if anything is still using the database at shutdown.\n\nAnd, additionally, bitcoin forces a database checkpoint, pushing all transactions from log into main database.\nIf it was doing that it would be much slower.  It's supposed to be only once a minute or 500 blocks:\n    if (strFile == \"blkindex.dat\" && IsInitialBlockDownload() && nBestHeight % 500 != 0)\n        nMinutes = 1;\n    dbenv.txn_checkpoint(0, nMinutes, 0);\nProbably should add this:\n    if (!fReadOnly)\n        dbenv.txn_checkpoint(0, nMinutes, 0);\n\n2) For the initial block download, txn commit should occur once every N records, not every record.  I suggest N=1000.\nDoes transaction commit imply flush?  That seems surprising to me.  I assume a database op wrapped in a transaction would be logged like any other database op.  Many database applications need to wrap almost every pair of ops in a transaction, such as moving money from one account to another. (debit a, credit b)  I can't imagine they're required to batch all their stuff up themselves.\nIn the following cases, would case 1 flush once and case 2 flush twice?\ncase 1:\nwrite\nwrite\nwrite\nwrite\ncheckpoint\ncase 2:\nbegin transaction\nwrite\nwrite\ncommit transaction\nbegin transaction\nwrite\nwrite\ncommit transaction\ncheckpoint\nContorting our database usage will not be the right approach.  It's going to be BDB settings and caching.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: RFC: ship block chain 1-74000 with release tarballs?",
+    "original_date": "2010-11-29T20:19:12.000Z",
+    "chunk_index": 0,
+    "word_count": 324
+  },
+  {
+    "text": "There's a separate public/private keypair for every bitcoin address.  You don't have a single private key that unlocks everything.  Bitcoin addresses are a 160-bit hash of the public key, everything else in the system is 256-bit.\nIf there was a collision, the collider could spend any money sent to that address.  Just money sent to that address, not the whole wallet.\nIf you were to intentionally try to make a collision, it would currently take 2^126 times longer to generate a colliding bitcoin address than to generate a block.  You could have got a lot more money by generating blocks.\nThe random seed is very thorough.  On Windows, it uses all the performance monitor data that measures every bit of disk performance, network card metrics, cpu time, paging etc. since your computer started.  Linux has a built-in entropy collector.  Adding to that, every time you move your mouse inside the Bitcoin window you're generating entropy, and entropy is captured from the timing of disk ops.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Bitcoin Address Collisions",
+    "original_date": "2010-02-23T16:26:09.000Z",
+    "chunk_index": 0,
+    "word_count": 170
+  },
+  {
+    "text": "That's a good idea.  I'm not sure where exactly to fit that in, but it could certainly calculate the expected average time between blocks generated, and then people would know what to expect.\nEvery node and each processor has a different public key in its block, so they're guaranteed to be scanning different territory.\nWhenever the 32-bit nonce starts over at 1, bnExtraNonce gets incremented, which is an arbitrary precision integer.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Proof-of-work difficulty increasing",
+    "original_date": "2010-06-02T18:45:38.000Z",
+    "chunk_index": 0,
+    "word_count": 76
+  },
+  {
+    "text": "Repost: How anonymous are bitcoins?\n10\nFrom:\nsatoshi\nSubject:\nRepost: How anonymous are bitcoins?\nDate:\nNovember 25, 2009 at 18:15:57 UTC\n--------------------\nbitcoinbitcoin:\nHow anonymous are bitcoins?\nCan nodes on the network tell from which and or to which bitcoin address coins are being sent? Do blocks contain a history of where bitcoins have been transfered to and from? Can nodes tell which bitcoin addresses belong to which IP addresses? Is there a command line option to enable the sock proxy the first time that bitcoin starts? What happens if you send bitcoins to an IP address that has multiple clients connected through network address translation (NAT)?\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Repost: How anonymous are bitcoins?",
+    "original_date": "2009-11-25T18:15:57.000Z",
+    "chunk_index": 0,
+    "word_count": 112
+  },
+  {
+    "text": "[OLD THREAD] Bitcoin version 0.2 development status\n14\nFrom:\nsatoshi\nSubject:\n[OLD THREAD] Bitcoin version 0.2 development status\nDate:\nNovember 27, 2009 at 22:48:39 UTC\nWe've been working hard on improvements for the next version release.  Martti (sirius-m) added some nice features to make it more user friendly and easier to run in the background:\n - Minimize to system tray option\n - Autostart on boot option so you can keep it running in the background automatically\n - New options dialog layout\n - Setup EXE for Windows, in addition to the archive download\nI've been working on a number of refinements to the networking code and laying the groundwork for future functionality.  Also coming in version 0.2:\n - Multi-processor support for coin generation\n - Proxy support\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "[OLD THREAD] Bitcoin version 0.2 development status",
+    "original_date": "2009-11-27T22:48:39.000Z",
+    "chunk_index": 0,
+    "word_count": 130
+  },
+  {
+    "text": "SheriffWoody:\nBitcoin addresses you generate are kept forever.  A bitcoin address must be kept to show ownership of anything sent to it.  If you were able to delete a bitcoin address and someone sent to it, the money would be lost.  They're only about 500 bytes.\nsirius-m:\nThousands of own addresses should not be any problem at all.  If you've generated 50000 BTC, then you already have 1000 own addresses, one for each 50 generated.  Those are hidden, they're not shown in the UI.\nIt would be a good idea to add a little code that keeps giving the same address to the same IP.  Here's what I did in C++ to keep giving the same key (aka bitcoin address) until they use it:\n    // Keep giving the same key to the same ip until they use it\n    if (!mapReuseKey.count(pfrom->addr.ip))\n        mapReuseKey[pfrom->addr.ip] = GenerateNewKey();\n\n    ...sends the key mapReuseKey[pfrom->addr.ip]\n...later...\n    // Received something with this key\n    mapReuseKey.erase(pfrom->addr.ip);\nIf it's not convenient to know when you've received, just clear the cached keys every 20 minutes.\nI want to add a parameter to getnewaddress for number of days to expire if nothing is received with the address.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: removing bitcoin addresses",
+    "original_date": "2010-05-16T23:34:40.000Z",
+    "chunk_index": 0,
+    "word_count": 198
+  },
+  {
+    "text": "I came to agree with Gavin about whitelisting when I realized how quickly new transaction types can be added.\nQuote from: nanotube on December 09, 2010, 06:19:05 AM\nwhy not make it easier on everyone and just allow say, 64 or 128 bytes of random data in a transaction?\nThat's already possible.  <pubkey> OP_CHECKSIG.  <pubkey> can be 33 to 120 bytes.\nI also support a third transaction type for timestamp hash sized arbitrary data.  There's no point not having one since you can already do it anyway.  It would tell nodes they don't need to bother to index it.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Version 0.3.18",
+    "original_date": "2010-12-09T15:17:53.000Z",
+    "chunk_index": 0,
+    "word_count": 104
+  },
+  {
+    "text": "Probably best to disable receiving by IP unless you specifically intend to use it.  This is a lot of surface area that nobody uses that doesn't need to be open by default.\nIn storefront cases, you would typically only want customers to send payments through your automated system that only hands out bitcoin addresses associated with particular orders and accounts.  Random unidentified payments volunteered to the server's IP address would be unhelpful.\nIn general, sending by IP has limited useful cases.  If connecting directly without a proxy, the man-in-the-middle risk may be tolerable, but no privacy.  If you use a privacy proxy, man-in-the-middle risk is unacceptably high.  If we went to all the work of implementing SSL, only large storefronts usually go to the trouble of getting a CA cert, but most of those cases would still be better off to use bitcoin addresses.\nI uploaded this change to SVN rev 156.  The switch to enable is \"-allowreceivebyip\".\nSenders with this version will get the error \"Recipient is not accepting transactions sent by IP address\".  Older version senders will get \"Transfer was not accepted\".\nI used a different name for the switch because \"-allowiptransactions\" sounds like it includes sending.  If there's a better name for the switch, we can change it again.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: The case for removing IP transactions",
+    "original_date": "2010-09-19T21:49:30.000Z",
+    "chunk_index": 0,
+    "word_count": 217
+  },
+  {
+    "text": "Quote from: bytemaster on August 05, 2010, 04:46:52 PM\nRight now the transaction fee address is left \"blank\" and the block generator fills it out.\nNow you would fill it in with the address of the person you are asking to build the block.  \nIf you're only going to have one person work on building the block, that could take days.  Oh, do you mean send a different variation to each node with the tx fee written to them?\nThe way it is now, it's whoever builds this gets it.\nIf we needed to, we could have a BitTorrent-esque tit-for-tat for transaction broadcast.  Relay paying transactions to me, or I won't relay them to you.  It probably won't be an actual problem though.  It only takes one node relaying like it should to cancel out 7 others greedily not relaying.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Flood attack 0.00000001 BC",
+    "original_date": "2010-08-05T17:49:43.000Z",
+    "chunk_index": 0,
+    "word_count": 145
+  },
+  {
+    "text": "If the only library is closed source, then there's a project to make an open source one.\nIf the only library is GPL, then there's a project to make a non-GPL one.\nIf the best library is MIT, Boost, new-BSD or public domain, then we can stop re-writing it.\nI don't question that GPL is a good license for operating systems, especially since non-GPL code is allowed to interface with the OS.  For smaller projects, I think the fear of a closed-source takeover is overdone.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Switch to GPL",
+    "original_date": "2010-09-12T19:24:53.000Z",
+    "chunk_index": 0,
+    "word_count": 90
+  },
+  {
+    "text": "Quote from: knightmb on August 15, 2010, 10:59:04 PM\n[edit]\n Just saw your post, I'll build one to less than 74,000 then, should at least save you technical people a few minutes of downloading the new chain.  \nJust leave the old one alone!  Older is better.  What block number is it?  Anywhere from 60000-74000 is good.  The one that you've had available for a while has been vetted and is the best choice.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: overflow bug SERIOUS",
+    "original_date": "2010-08-15T23:17:24.000Z",
+    "chunk_index": 0,
+    "word_count": 78
+  },
+  {
+    "text": "MinGW on Windows has trouble compiling it:\ng++ -c -mthreads -O2 -w -Wno-invalid-offsetof -Wformat -g -D__WXDEBUG__ -DWIN32 -D__WXMSW__ -D_WINDOWS -DNOPCH -I\"/boost\" -I\"/db/build_unix\" -I\"/openssl/include\" -I\"/wxwidgets/lib/gcc_lib/mswud\" -I\"/wxwidgets/include\" -msse2 -O3 -o obj/sha256.o sha256.cpp\nsha256.cpp: In function `long long int __vector__ Ch(long long int __vector__, long long int __vector__, long long int __vector__)':\nsha256.cpp:31: internal compiler error: in perform_integral_promotions, at cp/typeck.c:1454\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nSee <URL:http://www.mingw.org/bugs.shtml> for instructions.\nmake: *** [obj/sha256.o] Error 1\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: 4 hashes parallel on SSE2 CPUs for 0.3.6",
+    "original_date": "2010-08-14T00:49:18.000Z",
+    "chunk_index": 0,
+    "word_count": 82
+  },
+  {
+    "text": "The performance numbers posted from a VIA C7's hardware SHA-256 weren't astronomical.  Only in the 1500 khash/s range.  If you think about it, just because it's implemented in hardware doesn't mean it's crazy fast.  It still has to do all the steps.  It's only if simplifying it down to single-purpose hardware makes it small enough to fit many in parallel.  That's not necessarily easy or a given.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Difficulty: More nodes active, or faster nodes?",
+    "original_date": "2010-08-18T18:01:40.000Z",
+    "chunk_index": 0,
+    "word_count": 72
+  },
+  {
+    "text": "Repost: Request: Make this anonymous?\n7\nFrom:\nsatoshi\nSubject:\nRepost: Request: Make this anonymous?\nDate:\nNovember 22, 2009 at 18:32:00 UTC\n--------------------\nanonguy54:\nRequest: Make this anonymous?\nPosted:Thu 15 of Oct, 2009 (19:58 UTC)\nAre there any plans to make this service anonymous?\ne.g; Being able to route BitCoin through Tor.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Repost: Request: Make this anonymous?",
+    "original_date": "2009-11-22T18:32:00.000Z",
+    "chunk_index": 0,
+    "word_count": 56
+  },
+  {
+    "text": "Just a random streak of bad luck.  It looks steady to me.\nCompetition doesn't have an effect until the next automatic retarget adjustment, and we haven't reached the next one yet.\nThe adjustments are every 2016 blocks.  To calculate our progress towards the next one, divide the block total by 2016.  The fractional part is how far we are to the next one.  \nMy back-of-the-envelope projection: 42032 blocks/2016 = 20.85 = 85% of the way.  About 1.5 days to go until the next one.  That'll only be about 10 days since the last one, the target is 14 days, so 14/10 = 1.4 = around 40% difficulty increase.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: generation slowed down dramatically",
+    "original_date": "2010-02-23T00:49:56.000Z",
+    "chunk_index": 0,
+    "word_count": 113
+  },
+  {
+    "text": "If you do, I think it should be a very brief, single paragraph article like 100 words or less that simply identifies what Bitcoin is.\nI wish rather than deleting the article, they put a length restriction.  If something is not famous enough, there could at least be a stub article identifying what it is.  I often come across annoying red links of things that Wiki ought to at least have heard of.\nThe article could be as simple as something like:\n\"Bitcoin is a peer-to-peer decentralised /link/electronic currency/link/.\"\nThe more standard Wiki thing to do is that we should have a paragraph in one of the more general categories that we are an instance of, like Electronic Currency or Electronic Cash.  We can probably establish a paragraph there.  Again, keep it short.  Just identifying what it is.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: BitCoin Wikipedia page DELETED!!!",
+    "original_date": "2010-09-30T17:50:32.000Z",
+    "chunk_index": 0,
+    "word_count": 143
+  },
+  {
+    "text": "Version 0.3.2.5 -- please test!\n264\nFrom:\nsatoshi\nSubject:\nVersion 0.3.2.5 -- please test!\nDate:\nJuly 24, 2010 at 03:32:52 UTC\nPlease test 0.3.2.5 in preparation for the 0.3.3 release!  This build is looking good and should be the one that goes into 0.3.3.  I encourage you to go ahead and upgrade now if you're on Windows or Linux.\nNew features:\n- Gavin Andresen's HTTP authentication to secure JSON-RPC\n- 5x faster initial block download, under 30 minutes\nDownload here:\nhttp://www.bitcoin.org/download/bitcoin-0.3.2.5-win32.zip\nhttp://www.bitcoin.org/download/bitcoin-0.3.2.5-linux.tar.gz\nThanks!\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Version 0.3.2.5 -- please test!",
+    "original_date": "2010-07-24T03:32:52.000Z",
+    "chunk_index": 0,
+    "word_count": 88
+  },
+  {
+    "text": "We should queue up a supply of pre-made addresses in the wallet to use when a new address is needed.  They aren't very big, so it wouldn't hurt to have a lot of them.  This would more generally cover the case also where someone backs up, then requests a new address and receives a big payment with it.  Maybe there should be separate queues so one type of demand on addresses doesn't deplete it for the others.\nThe addresses would be created and stored in the normal place, but also listed on a separate list of created-but-never-used addresses.  When an address is requested, the address at the front of the never-used queue is handed out, and a new address is created and added to the back.\nThere's some kind of rescan in the block loading code that was made to repair the case where someone copied their wallet.dat.  I would need to check that the rescan handles the case of rediscovering received payments in blocks that were already received, but are forgotten because the wallet was restored.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Privacy versus Safety: handling change",
+    "original_date": "2010-07-17T16:27:39.000Z",
+    "chunk_index": 0,
+    "word_count": 182
+  },
+  {
+    "text": "Quote from: bdonlan on July 15, 2010, 11:27:14 PM\nin 120DPI mode. \nWhat is \"120DPI mode\"?  Is that an actual setting somewhere?  Sounds like an obscure enough candidate.  I suppose it needs twice the resolution icon to fill the size of the upper left corner icon.  Only one size is provided.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: \"SetIcons(): icon bundle doesn't contain any suitable icon\"",
+    "original_date": "2010-07-15T23:41:23.000Z",
+    "chunk_index": 0,
+    "word_count": 56
+  },
+  {
+    "text": "Quote from: ByteCoin on November 13, 2010, 11:55:11 PM\nOf course, if the network is not being flooded and you're not overly concerned about the current transaction getting held up then it's probably worth preferring to use your 0 conf transactions so that you can \"save\" the higher priority coins for when the network \nis\n being flooded.\nYou should use at least some priority in case a flood comes along before the next block.\nAs long as all dependencies have at least 1 conf, if the transaction doesn't have enough priority at first, the dependencies will age until it does.\n\nGaming the system  by including 1000 or so recently turned over BTC to bump the priority as described in my post above still works of course! \nOr managing how much priority you spend on a transaction.  The software would have to know your future plans to know whether to spend your priority now or save it for later.  I don't think we'll need to get into that much detail though.  There's a wide enough difference between normal users and flooders.\nPriority doesn't have to do everything.  Once you know there's a flood, you can add -paytxfee=0.01.  Hopefully with priority, your transactions before that should be at worst slow, not stuck.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Some testing that I did on the testnetwork, my findings.",
+    "original_date": "2010-11-14T16:53:19.000Z",
+    "chunk_index": 0,
+    "word_count": 215
+  },
+  {
+    "text": "It sets different priorities for each thread.  The generate threads run at PRIO_MIN.  The other threads rarely take any CPU and run at normal.\n#define THREAD_PRIORITY_LOWEST          PRIO_MIN\n#define THREAD_PRIORITY_BELOW_NORMAL    2\n#define THREAD_PRIORITY_NORMAL          0\nThe priorities converted from Windows priorities were probably from a table like this:\n   \"The following table shows the mapping between nice values and Win32 priorities. Refer to the Win32 documentation for SetThreadPriority() for more information on Win32 priority issues.\nnice value    Win32 Priority\n-20 to -16    THREAD_PRIORITY_HIGHEST\n-15 to -6    THREAD_PRIORITY_ABOVE_NORMAL\n-5 to +4    THREAD_PRIORITY_NORMAL\n+5 to +14    THREAD_PRIORITY_BELOW_NORMAL\n+15 to +19    THREAD_PRIORITY_LOWEST\"\nIf you have better values, suggestions welcome.\nAlso, there was some advice on the web that PRIO_PROCESS is used on Linux because threads are processes.  If that's not true, maybe it accounts for unexpectedly setting the priority of the whole app.\n    // threads are processes on linux, so PRIO_PROCESS affects just the one thread\n    setpriority(PRIO_PROCESS, getpid(), nPriority);\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: bitcoin auto-renice-ing",
+    "original_date": "2010-03-15T18:44:12.000Z",
+    "chunk_index": 0,
+    "word_count": 158
+  },
+  {
+    "text": "Search debug.log for \"proof-of-work found\".  If you find any, then check for any errors right after that.\nQuote from: davidonpda on August 19, 2010, 07:43:01 PM\nHow big of a margin on the time is allowed for things to work right.\nThe margin is 2 hours.\nThis should be solved in SVN rev 141 and the next release (0.3.11+).  It'll pop up a message box alerting you if your clock is off by more than an hour.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: 28 days without generation, i have 4200khash/s",
+    "original_date": "2010-08-22T23:01:02.000Z",
+    "chunk_index": 0,
+    "word_count": 82
+  },
+  {
+    "text": "0.3.2 has some security safeguards to lock in the block chain up to this point and limit the damage a little if someone gets 50%.\nBut if someone has 50%+ of the CPU power and malicious intent, they can prove what it already says in the design document.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Nenolod, the guy that wants to prove Bitcoin doesn't work.",
+    "original_date": "2010-07-17T16:56:06.000Z",
+    "chunk_index": 0,
+    "word_count": 53
+  },
+  {
+    "text": "Quote from: DataWraith on May 19, 2010, 07:52:42 PM\nCan I just butt in with a question on why that is? To me it seems that if Bitcoin uses public-key cryptography to transfer ownership of the coins, it should be a trivial matter to include a short message that is only readable by the recipient.\nAlmost but not quite.  Bitcoin uses EC-DSA, which can only do digital signing, not encryption.  RSA can do both, but I didn't use it because it's an order of magnitude bigger and would have been impractical.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: We accept Bitcoins",
+    "original_date": "2010-05-20T21:43:42.000Z",
+    "chunk_index": 0,
+    "word_count": 96
+  },
+  {
+    "text": "That big of a difference in speed, by a factor of 4 or 6, feels like it's likely to be some quirky weak spot or instruction that the old chip is slow with.  Unless it's a touted feature of the i5 that they made SSE2 six times faster.\nA quick summary:\nXeon Quad        41% slower\nCore 2 Duo        55% slower\nCore 2 Duo        same (vess)\nCore 2 Quad      50% slower\nCore i5            200% faster (nelisky)\nCore i5            100% faster (vess)\nAMD Opteron    105% faster\naceat64:\nMy system went from ~7100 to ~4200.\nThis particular system has dual Intel Xeon Quad-Core CPUs (E5335) @ 2.00GHz.\nimpossible7:\non an Intel Core 2 Duo T7300 running x86_64 linux it was 55% slower compared to the stock version (r121)\nnelisky:\nMy Core2Quad (Q6600) slowed down 50%, \nmy i5 improved ~200%, \nimpossible7:\non an AMD Opteron 2374 HE running x86_64 linux I got a 105% improvement (!)\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: 4 hashes parallel on SSE2 CPUs for 0.3.6",
+    "original_date": "2010-08-12T22:07:23.000Z",
+    "chunk_index": 0,
+    "word_count": 157
+  },
+  {
+    "text": "I have the beginning of something like this.  It's mostly like what Gavin described.\nSome more rpc interface:\nmove <fromaccount> <toaccount> <amount>\n   Move from one internal account to another.  I think blank account name (\"\") will be your default account.  If you sell something to a user, you could do move \"theiraccount\" \"\" 123.45.\n   Is \"move\" the best name for this?  I shied away from \"transfer\" because that sounds too close to sending a transaction.\nI'm thinking a new function getaccountaddress instead of overloading getnewaddress:\ngetaccountaddress <account>\n   Gives you an address allocated from getnewaddress <account>.  It'll keep giving the same address until something is received on the address, then it allocates a new address.  (It automatically does what the sample code I posted some time ago did)\nWould these commands make it possible in simple cases to implement your website without needing a database of your own?\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Multiple Wallets, one computer",
+    "original_date": "2010-10-24T19:17:51.000Z",
+    "chunk_index": 0,
+    "word_count": 152
+  },
+  {
+    "text": "What you can currently do is set \"Minimize to the tray\" in options, then run it as \"bitcoin -min\" so it starts minimized.  The only visible part will be a small (20x20) icon on the tray, which can be doubleclicked if you want to access the UI.  Note: there's a bug with tray icons sometimes disappearing on 64-bit Karmic Koala, not sure if it's from 64-bit or Karmic, it was fine on 32-bit Jaunty.\nWe didn't have time to implement the \"Start Bitcoin on system startup\" feature on Linux in time for 0.2 so it's greyed out.  I figured Linux people wouldn't mind doing that manually anyway.  I guess they need to know about the -min switch to do it right.\nYou can locate the data directory where you want with the \"-datadir=<directory>\" switch.  I know someone is already doing that to put it on a TrueCrypt USB drive.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: A few suggestions",
+    "original_date": "2009-12-18T17:37:48.000Z",
+    "chunk_index": 0,
+    "word_count": 154
+  },
+  {
+    "text": "Quote from: soultcer on February 12, 2010, 02:31:50 PM\nIf you want, I can provide you with a precompiled binary.\nAm I missing something?  Is there something wrong with the 32-bit linux precompiled binary on bitcoin.org?\nThe bitcoin binary in the distribution static links the wxWidgets library, and its shared links (openssl and GTK) are included in Ubuntu, so it can run without needing to be a .deb to pull down dependencies.\nSince we're upgrading to wxWidgets 2.9.0 for UTF-8, which doesn't have a DEB package yet, we'll continue to need to static link it.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: DEB Package?",
+    "original_date": "2010-02-12T15:57:37.000Z",
+    "chunk_index": 0,
+    "word_count": 100
+  },
+  {
+    "text": "Warning: don't use -server or bitcoind where you web browse (v0.3.2 and lower)\n247\nFrom:\nsatoshi\nSubject:\nWarning: don't use -server or bitcoind where you web browse (v0.3.2 and lower)\nDate:\nJuly 19, 2010 at 16:01:38 UTC\nDon't use the -server or -daemon switch or run bitcoind on a machine where you use a web browser.  It opens port 8332 on 127.0.0.1, the local loopback address, and you wouldn't think that web browsers could cross-site access it, but it is possible.\nWe're working on a release soon that puts a password on the JSON-RPC interface, but until then, avoid using the -server switch, and don't web browse on the same machine where bitcoind is running.\nUpdate:\nThe JSON-RPC HTTP authentication feature in 0.3.3 solves this problem.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Warning: don't use -server or bitcoind where you web browse (v0.3.2 and lower)",
+    "original_date": "2010-07-19T16:01:38.000Z",
+    "chunk_index": 0,
+    "word_count": 131
+  },
+  {
+    "text": "I uploaded an updated bitcoin.po for 0.3.1 attached to this message:\nhttp://bitcointalk.org/index.php?topic=151.msg1259#msg1259\nplease use it if you're starting a new translation.\nIf you already have a po file, poedit can update it.  \n- Get the src directory from the 0.3.1 release candidate posted in the development forum, any version will do:\nhttp://bitcointalk.org/index.php?topic=383.0\n- Make a subdirectory under src: locale/??/LC_MESSAGES\n(?? could be anything really, \"en\" or your language 2-letter code)\n- Put your .po file there\n- Open it with poedit\n- In poedit, Catalog->Update from sources\nThe key is that the src directory with the sourcefiles needs to be 3 directories up from the .po file.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Website and software translations",
+    "original_date": "2010-07-15T18:37:13.000Z",
+    "chunk_index": 0,
+    "word_count": 112
+  },
+  {
+    "text": "You were looking at the wrong code.  Here's the code that applies:\nCode:\nbool CBlock::CheckBlock() const\n{\n...\n    // Check timestamp\n    if (nTime > GetAdjustedTime() + 2 * 60 * 60)\n        return error(\"CheckBlock() : block timestamp too far in the future\");\n...\nbool CBlock::AcceptBlock()\n{\n   ...\n    // Check timestamp against prev\n    if (nTime <= pindexPrev->GetMedianTimePast())\n        return error(\"AcceptBlock() : block's timestamp is too early\");\nThe timestamp is limited to up to 2 hours in the future.  It can be earlier than the previous block, but it must be greater than the median of the last 11 blocks.  The reason for doing it that way is so the time can get corrected in the next block if the previous block had the time too far in the future, like what happened.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Difficulty",
+    "original_date": "2010-07-29T01:16:23.000Z",
+    "chunk_index": 0,
+    "word_count": 134
+  },
+  {
+    "text": "It can be phased in, like:\nif (blocknumber > 115000)\n    maxblocksize = largerlimit\nIt can start being in versions way ahead, so by the time it reaches that block number and goes into effect, the older versions that don't have it are already obsolete.\nWhen we're near the cutoff block number, I can put an alert to old versions to make sure they know they have to upgrade.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: [PATCH] increase block size limit",
+    "original_date": "2010-10-04T19:48:40.000Z",
+    "chunk_index": 0,
+    "word_count": 73
+  },
+  {
+    "text": "It does in fact download 500 blocks at a time, then the counter counts one at a time as it verifies the blocks.\nThe advantage of letting bitcoin download and verify the blocks is that you do not have to trust the person you're downloading them from.  If you downloaded the blk*.dat files from some site, you would have to trust that site, since you would be accepting the data without verifying it yourself.  If you're copying blk*.dat from another computer of yours, that should be fine.\nHow long is the initial block download taking for you?\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Share database blocks ?",
+    "original_date": "2010-05-26T20:34:34.000Z",
+    "chunk_index": 0,
+    "word_count": 102
+  },
+  {
+    "text": "It must be a rounding error when getinfo converts to floating point to return the JSON-RPC result.  The only place where it uses floating point to represent money is returning a value in JSON-RPC.\n1.139999999999 is longer than bitcoin can internally represent.\ninternally, it could only be:\n1.13999999 or\n1.14000000\n1.139999999999 is much much closer to 1.14000000 than 1.13999999, so it must be 1.14000000.\nThe code is this:\n(double)GetBalance() / (double)COIN.\n(I can't think of an easy way to fix it at the moment)\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: BUG Report: Rounding glitch",
+    "original_date": "2010-07-17T16:06:12.000Z",
+    "chunk_index": 0,
+    "word_count": 89
+  },
+  {
+    "text": "Quote from: Ground Loop on August 18, 2010, 11:14:26 PM\nAny non-Mac i5 love?\nWindows i5 64-bit got slower here.\nThat's the first I've heard anyone say i5 was slower.  Everyone else has said 4way was faster on i5.  Moreso with hyperthreading enabled.\nQuote from: nelisky on August 18, 2010, 11:02:25 PM\nAnd i5, at least on my macbookpro\nGood, so I take it that's a confirmation that it's working on Mac as well?\nLaszlo told me he did compile in the -4way stuff on Mac, so the -4way switch is also available to try on Mac.  I don't think makefile.osx on SVN has it yet, just the built version.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: tcatm's 4-way SSE2 for Linux 32/64-bit is in 0.3.10",
+    "original_date": "2010-08-19T19:07:43.000Z",
+    "chunk_index": 0,
+    "word_count": 115
+  },
+  {
+    "text": "Quote from: m0mchil on November 20, 2010, 10:16:19 AM\nupdated to SVN 186\nThanks m0mchil for keeping up on the updates!\nGPU miners, please upgrade as soon as possible to shut down the free transaction abuse!  This version has the new priority-based limit on free transaction spam.\nQuote from: m0mchil on November 16, 2010, 10:30:41 AM\nJust updated to SVN 181 and fixed getwork patch to wait 60 seconds between rebuilding the block with new transactions. This is actually the behavior of the original client, was forgotten in the patch by mistake.  Fixes heavy CPU usage on every getwork request (this became obvious with recent heavy transaction spam). Please upgrade.\nBefore SVN 184, compiling transactions into a block used an n^2 algorithm.  The new efficient single-pass algorithm is orders of magnitude quicker.  (O(n) vs O(n^2)/2 algorithm, n=200 maybe 10 to 100 times quicker)\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: OpenCL miner for the masses",
+    "original_date": "2010-11-20T17:24:20.000Z",
+    "chunk_index": 0,
+    "word_count": 148
+  },
+  {
+    "text": "Was that the only thing I broke in the OSX build?!  Does it actually work after just that one change?\nI had to do that for makefile.vc also.  It compiled, but SHA-256 didn't work correctly; it returned the same incorrect hash each time.\nWe'll disable it now, and if anyone figures out how to fix it, we can re-enable it then.  It's still 1.7x faster from the midstate optimisation.\nThe Crypto++ ASM SHA-256 works with GCC on Linux and Windows (MinGW).\nI uploaded this makefile.osx change to SVN.  (let me know if that compiles now)\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Build error SVN r115 on my Mac: workaround",
+    "original_date": "2010-07-28T21:23:23.000Z",
+    "chunk_index": 0,
+    "word_count": 100
+  },
+  {
+    "text": "That's a good optimisation.  I'll add that next time I update SVN.\nMore generally, we could also consider this:\n        dbenv.set_lk_max_objects(10000);\n        dbenv.set_errfile(fopen(strErrorFile.c_str(), \"a\")); /// debug\n        dbenv.set_flags(DB_AUTO_COMMIT, 1);\n+       dbenv.set_flags(DB_TXN_NOSYNC, 1);\n        ret = dbenv.open(strDataDir.c_str(),\n                         DB_CREATE     |\n                         DB_INIT_LOCK  |\n                         DB_INIT_LOG   |\nWe would then rely on dbenv.txn_checkpoint(0, 0, 0) in CDB::Close() to flush after wallet writes.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: RFC: ship block chain 1-74000 with release tarballs?",
+    "original_date": "2010-12-01T21:25:39.000Z",
+    "chunk_index": 0,
+    "word_count": 58
+  },
+  {
+    "text": "Quote from: sirius-m on June 10, 2010, 01:51:16 PM\nYou can of course use services like vekja.net or mybitcoin.com on a mobile browser, depositing money there to the extent you trust them. \nI think that's the best option right now.  Like cash, you don't keep your entire net worth in your pocket, just walking around money for incidental expenses.\nThey could make a smaller version of the site optimized for mobile.  If there was an app, it could be a front end to one of those, with the main feature being QR-code reader, or maybe there's already a universal QR-code reading app that web sites can be designed to accept scans from.\nIf there was an iPhone app that was just a front end for vekja or mybitcoin, not a big involved P2P, would apple approve it and if not, on what basis?  It could always be an Android app instead.  An app is not really necessary though, just a mobile sized website.\nA web interface to your own Bitcoin server at home wouldn't be a solution for everyone.  Most users don't have a static IP, and it's too much trouble to set up port forwarding.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Bitcoin mobile.",
+    "original_date": "2010-06-26T20:58:26.000Z",
+    "chunk_index": 0,
+    "word_count": 201
+  },
+  {
+    "text": "Bitcoin P2P e-cash paper\n1\nFrom:\nSatoshi Nakamoto\nSubject:\nBitcoin P2P e-cash paper\nDate:\nOctober 31, 2008 at 18:10:00 UTC\nI've been working on a new electronic cash system that's fully\npeer-to-peer, with no trusted third party.\nThe paper is available at:\nhttp://www.bitcoin.org/bitcoin.pdf\nThe main properties:\n Double-spending is prevented with a peer-to-peer network.\n No mint or other trusted parties.\n Participants can be anonymous.\n New coins are made from Hashcash style proof-of-work.\n The proof-of-work for new coin generation also powers the\n network to prevent double-spending.\nBitcoin: A Peer-to-Peer Electronic Cash System\nAbstract. A purely peer-to-peer version of electronic cash would\nallow online payments to be sent directly from one party to another\nwithout the burdens of going through a financial institution.\nDigital signatures provide part of the solution, but the main\nbenefits are lost if a trusted party is still required to prevent\ndouble-spending. We propose a solution to the double-spending\nproblem using a peer-to-peer network. The network timestamps\ntransactions by hashing them into an ongoing chain of hash-based\nproof-of-work, forming a record that cannot be changed without\nredoing the proof-of-work. The longest chain not only serves as\nproof of the sequence of events witnessed, but proof that it came\nfrom the largest pool of CPU power. As long as honest nodes control\nthe most CPU power on the network, they can generate the longest\nchain and outpace any attackers. The network itself requires\nminimal structure. Messages are broadcasted on a best effort basis,\nand nodes can leave and rejoin the network at will, accepting the\nlongest proof-of-work chain as proof of what happened while they\nwere gone.\nFull paper at:\nhttp://www.bitcoin.org/bitcoin.pdf\nSatoshi Nakamoto\n---------------------------------------------------------------------\nThe Cryptography Mailing List\nUnsubscribe by sending \"unsubscribe cryptography\" to majordomo at metzdowd.com\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "email_cryptography",
+    "original_title": "Bitcoin P2P e-cash paper",
+    "original_date": "2008-10-31T18:10:00.000Z",
+    "chunk_index": 0,
+    "word_count": 292
+  },
+  {
+    "text": "We can't safely do OP_BLOCKNUMBER.  In the event of a block chain reorg after a segmentation, transactions need to be able to get into the chain in a later block.  The OP_BLOCKNUMBER transaction and all its dependants would become invalid.  This wouldn't be fair to later owners of the coins who weren't involved in the time limited transaction.\nnTimeLock does the reverse.  It's an open transaction that can be replaced with new versions until the deadline.  It can't be recorded until it locks.  The highest version when the deadline hits gets recorded.  It could be used, for example, to write an escrow transaction that will automatically permanently lock and go through unless it is revoked before the deadline.  The feature isn't enabled or used yet, but the support is there so it could be implemented later.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Need OP_BLOCKNUMBER to allow \"time\" limited transactions",
+    "original_date": "2010-11-15T18:37:44.000Z",
+    "chunk_index": 0,
+    "word_count": 141
+  },
+  {
+    "text": "boost::program_options has the same \"key=value\" format.  Gavin pointed out we can use it in a simple way as a parser without getting into all the esoteric c++ syntax like typed value extraction.  We can use more features if we want later.\nLets go ahead with HTTP basic authentication instead of password as a parameter.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: JSON-RPC password",
+    "original_date": "2010-07-21T17:31:09.000Z",
+    "chunk_index": 0,
+    "word_count": 59
+  },
+  {
+    "text": "Bitcoin open source implementation of P2P currency\n2\nFrom:\nSatoshi Nakamoto\nSubject:\nBitcoin open source implementation of P2P currency\nDate:\nFebruary 15, 2009 at 16:42:00 UTC\nCould be. They're talking about the old Chaumian central mint stuff, but maybe only because that was the only thing available. Maybe they would be interested in going in a new direction.\n\nA lot of people automatically dismiss e-currency as a lost cause because of all the companies that failed since the 1990's. I hope it's obvious it was only the centrally controlled nature of those systems that doomed them. I think this is the first time we're trying a decentralized, non-trust-based system.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_p2pfoundation",
+    "original_title": "Bitcoin open source implementation of P2P currency",
+    "original_date": "2009-02-15T16:42:00.000Z",
+    "chunk_index": 0,
+    "word_count": 114
+  },
+  {
+    "text": "Quote from: Xunie on May 26, 2010, 12:50:04 AM\nCan't we force a user to use a new address for receiving payments?\nEvery time a payment is received display another Bitcoin address in the address bar. (only transactions via Bitcoin addresses, NOT IPs of course, since that'd be useless, right?)\nThe actual key would still be kept to ensure that the user would still receive payments of people sending to the same address.\nThis is on my list.  I will soon make the \"Your Bitcoin Address:\" window automatically change whenever you receive anything to the address displayed.\nI'm also recommending this approach for the implementation of web apps.  I just posted some sample code showing a suggested way of implementing this.\nVersions on SVN since 0.2.4 already have a \"New...\" button next to the address bar to encourage changing it manually too.\n@theymos: If nothing else, we can fall back on that solution in the future.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Tracing a coin's lineage",
+    "original_date": "2010-05-26T18:51:04.000Z",
+    "chunk_index": 0,
+    "word_count": 161
+  },
+  {
+    "text": "The formula is based on the time it takes to generate 2016 blocks.  The difficulty is multiplied by 14/(actual days taken).  For instance, this time it took 9.4 days, so the calculation was 14/9.4 = 1.49.  Previous difficulty 2.53 * 1.49 = 3.78, a 49% increase. \nI don't know what you're talking about accepting easier difficulties.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Proof-of-work difficulty increasing",
+    "original_date": "2010-02-25T23:06:29.000Z",
+    "chunk_index": 0,
+    "word_count": 61
+  },
+  {
+    "text": "Quote from: knightmb on July 30, 2010, 08:04:19 PM\nSo that last command should simply be\nsudo apt-get install libboost1.37-dev\nExcept that wouldn't work for boost 1.40+ (on Ubuntu 10.04), where you need to get libboost-all-dev.\nSeems they changed everything around in Boost recently, \"-mt\" and all that, makes it hard.\nBTW, I tried Boost 1.34 but it didn't have the boost.interprocess stuff.\nMac OSX version is available now.  See bitcoin.org or the SourceForge link.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: *** ALERT *** Upgrade to 0.3.6 ASAP!",
+    "original_date": "2010-07-30T21:44:04.000Z",
+    "chunk_index": 0,
+    "word_count": 80
+  },
+  {
+    "text": "But 1.0 sounds like the first release.  For some things newness is a virtue but for this type of software, maturity and stability are important.  I don't want to put my money in something that's 1.0.  1.0 might be more interesting for a moment, but after that we're still 1.0 and everyone who comes along thinks we just started.  This is the third major release and 1.3 reflects that development history.  (0.1, 0.2, 1.3)\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Beta?",
+    "original_date": "2010-06-27T12:43:50.000Z",
+    "chunk_index": 0,
+    "word_count": 79
+  },
+  {
+    "text": "Quote from: theymos on October 03, 2010, 08:09:51 PM\nArtForz is already running with no fees, and he has 20-30% of the network's CPU power. The person who originally sent the broken transactions deleted his wallet, though, and the network has forgotten these historical transactions, so any transactions based on this won't confirm.\nTransactions aren't accepted or displayed as 0/unconfirmed until your node has a path of transactions back to the block chain.\nAny transactions in your wallet also have bundled with them all unrecorded transactions required to reach the block chain.  If you have a transaction that is displayed as 0/unconfirmed, then you have all the previous unrecorded transactions it depends on and you will also rebroadcast those transactions when you rebroadcast yours.\nIf a no-fee block has already been generated and hasn't helped, then I need to look at what's wrong.  It's a part of code that doesn't get much use.  They should be recorded in the wallets of everyone who has a transaction depending on them.\nQuote from: theymos on October 03, 2010, 08:09:51 PM\nThe person who originally sent the broken transactions deleted his wallet\nSigh... why delete a wallet instead of moving it aside and keeping the old copy just in case?  You should never delete a wallet.\nQuote from: tcatm on October 03, 2010, 08:10:47 PM\nIt's running. Should find a block within 3 hours.\nIt may take a while to collect re-broadcast transactions.  It'll help if you can accept inbound connections so you'll be listening to more nodes.  Even if you find a block in 3 hours, keep it running continuously for a few days at least.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Version 0.3.13, please upgrade",
+    "original_date": "2010-10-03T20:54:07.000Z",
+    "chunk_index": 0,
+    "word_count": 279
+  },
+  {
+    "text": "Thanks for the feedback on this.\nOne thing we could do is lower the outbound connections from 15 to 10 or maybe even 5.  The choice of 15 was arbitrary.  It just needs to be enough for redundancy and fast exponential propagation of messages.  10 would still be plenty.  5 should be fine.  10 is good as a nice round number so users can see that it stopped intentionally.\nIt would help to implement UPnP so there would be more inbound accepting nodes.  Your number of connections is the ratio of inbound accepting nodes to out-only times 15.  We need to encourage more people to accept inbound connections.\nI will implement a feature to stop accepting inbound connections once you hit a certain number.\nWhich version are you running?\nAnyone know how many connections typical P2P software like BitTorrent can get up to?\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Feature Request: Limiting Connections",
+    "original_date": "2010-07-02T19:21:36.000Z",
+    "chunk_index": 0,
+    "word_count": 148
+  },
+  {
+    "text": "Quote from: eurekafag on October 04, 2010, 10:55:56 AM\nWhere can I find the latest English .po file to keep the translation up-to-date?\npoedit does it.  Either get the src directory from a release, or download it with SVN.  Place your .po file 3 directories deep under the src directory.  Open it with poedit and do Catalog->Update from sources.\nSo for example, you have:\nsrc\nsrc\\base58.h\nsrc\\bignum.h\n...\nsrc\\util.cpp\nsrc\\util.h\nsrc\\xpm\nsrc\\locale\ru\\LC_MESSAGES\\bitcoin.po\nOpen bitcoin.po with poedit, do Catalog->Update from sources.  It looks for the sourcecode up 3 directories (..\\..\\..) from where bitcoin.po is.\nThis updates your existing .po file you already worked on and adds any news strings.  It may try to match close strings, so check things over and make sure it didn't make any bad guesses.\nMake sure you use the .po file I uploaded to SVN or in a release, because I always fix up at least a few things.  I'm attaching your Russian one to this message.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Website and software translations",
+    "original_date": "2010-10-04T19:21:01.000Z",
+    "chunk_index": 0,
+    "word_count": 167
+  },
+  {
+    "text": "It ramps up the fee requirement as the block fills up:\n<50KB  free\n50KB   0.01\n250KB  0.02\n333KB  0.03\n375KB  0.04\netc.\nIt's a typical pricing mechanism.  After the first 50KB sells out, the price is raised to 0.01.  After 250KB is sold, it goes up to 0.02.  At some price, you can pretty much always get in if you're willing to outbid the other customers.\nJust including the minimum 0.01 goes a long way.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Prioritized transactions, and tx fees",
+    "original_date": "2010-09-30T18:11:56.000Z",
+    "chunk_index": 0,
+    "word_count": 80
+  },
+  {
+    "text": "Bitcoin v0.1 released\n17\nFrom:\nSatoshi Nakamoto\nSubject:\nBitcoin v0.1 released\nDate:\nJanuary 16, 2009 at 16:03:14 UTC\n> Dustin D. Trammell wrote:\n> > Satoshi Nakamoto wrote:\n> > You know, I think there were a lot more people interested in the 90's,\n> > but after more than a decade of failed Trusted Third Party based systems\n> > (Digicash, etc), they see it as a lost cause. I hope they can make the\n> > distinction that this is the first time I know of that we're trying a\n> > non-trust-based system.\n>\n> Yea, that was the primary feature that caught my eye. The real trick\n> will be to get people to actually value the BitCoins so that they become\n> currency.",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "email_cryptography",
+    "original_title": "Bitcoin v0.1 released",
+    "original_date": "2009-01-16T16:03:14.000Z",
+    "chunk_index": 0,
+    "word_count": 128
+  },
+  {
+    "text": "The design outlines a lightweight client that does not need the full block chain.  In the design PDF it's called Simplified Payment Verification.  The lightweight client can send and receive transactions, it just can't generate blocks.  It does not need to trust a node to verify payments, it can still verify them itself. \nThe lightweight client is not implemented yet, but the plan is to implement it when it's needed.  For now, everyone just runs a full network node. \nI anticipate there will never be more than 100K nodes, probably less.  It will reach an equilibrium where it's not worth it for more nodes to join in.  The rest will be lightweight clients, which could be millions.\nAt equilibrium size, many nodes will be server farms with one or two network nodes that feed the rest of the farm over a LAN.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Scalability",
+    "original_date": "2010-07-14T21:10:52.000Z",
+    "chunk_index": 0,
+    "word_count": 147
+  },
+  {
+    "text": "Microsoft Security Essentials Live Protection is blocking your communication with the network.  You have connections, which tricks Bitcoin into thinking it's connected, but they are silent because the data is being blocked.\nYou need to make bitcoin.exe an excluded process in Live Protection.\nThis is becoming a common problem.  Someone should write this up in a pegged thread.\nThe message \"Warning: This block was not received by any other nodes\" occurs when Bitcoin broadcasts a block, but nobody confirms they received it.  The warning is there just for this kind of situation, where for some reason you have connections, but they have gone dead and nobody can hear you.  Your block will never become valid because nobody received it.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Warning this block was not received by any other nodes",
+    "original_date": "2010-07-14T18:56:29.000Z",
+    "chunk_index": 0,
+    "word_count": 124
+  },
+  {
+    "text": "Quote from: Red on August 12, 2010, 01:10:19 AM\nQuote from: satoshi on August 11, 2010, 09:07:59 PM\nI believe the clients would have to keep the entire history back to the original generated coins.  The fact that clients have to keep the entire history reduces the privacy benefit.  \nI thought this too at first. But then I convinced myself otherwise.\nAre you back to talking about the existing Bitcoin system here?\nI was talking about in the hypothetical system I was describing, if the network doesn't know the values and lineage of the transactions, then it can't verify them and vouch for them, so the clients would have to keep the history all the way back.\nIf a client wasn't present until recently, the two ways to convince it that a transaction has a valid past is:\n1) Show it the entire history back to the original generated coin.\n2) Show it a history back to a thoroughly deep block, then trust that if so many nodes all said the history up to then was correct then it must be true.\nBut if the network didn't know all the values and lineage of the transactions, it couldn't do 2), I don't think.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Not a suggestion",
+    "original_date": "2010-08-12T02:46:56.000Z",
+    "chunk_index": 0,
+    "word_count": 208
+  },
+  {
+    "text": "It's not safe to use listtransactions this way.\nI know I've been criticized for being reluctant about listtransactions.  Let me explain my reluctance.\nTransactions are dynamic.  Past transactions can become unconfirmed, go away and come back, become invalid and disappear, or be replaced by a different double-spend.  Their date can change, their order can change.\nProgrammers are naturally inclined to want to use listtransactions like this: feed me the new transactions since I last asked, and I'll keep my own tally or static record of them.  This will seem to work in all regular use, but if you use the amounts for anything, it is highly exploitable:\n1) How do you know if a past transaction becomes invalid and disappears?\n2) When there's a block-chain reorg, it would be easy to double-count transactions when they get confirmed again.\n3) A transaction can be replaced by a double-spend with a different txid.  You would count both spends.\nThe model where you assume you only need to see new transactions because you've already seen previous transactions is not true.  Old transactions can change at any time.\nAny time you take an action based on payment amounts received, you always need to go back to bitcoin and ask for a current balance total (or use move or sendfrom), and be ready for the possibility that it can go down.\nNow that we have the Accounts feature making it easier to do it the right way, we're better prepared to have listtransactions.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: JSON-RPC method idea: list transactions newer than a given txid",
+    "original_date": "2010-12-08T20:21:49.000Z",
+    "chunk_index": 0,
+    "word_count": 253
+  },
+  {
+    "text": "OK, I made a build target bitcoind that only links wxBase and does not link GTK.  Version 0.2.7 on SVN.\nI split out the init and shutdown stuff from ui.cpp into init.cpp, so now ui.cpp is pure UI.  ui.h provides inline stubs if wxUSE_GUI=0.  We only have four functions that interface from the node to the UI.  In the bitcoind build, we don't link ui.o or uibase.o.\nQuote from: sirius-m on February 25, 2010, 04:32:17 PM\nIt started increasing right away. I'll see if valgrind can help me.\nSure feels like it could be something in wxWidgets retrying endlessly because some UI thing failed or something wasn't inited correctly.  Our hack to ignore the initialize failure and run anyway means we're in uncharted territory.  We're relying on the fact that we hardly use wx in this mode.  We do still use a few things like wxGetTranslation and wxMutex.\nAnother way to debug would be to run in gdb, wait until everything is quiet and all threads should be idle, and break it and see which thread is busily doing something and what it's doing.\nI suspect bitcoind will probably work fine, but I hope you can still debug the problem.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Command Line and JSON-RPC",
+    "original_date": "2010-02-25T22:54:17.000Z",
+    "chunk_index": 0,
+    "word_count": 205
+  },
+  {
+    "text": "I don't think you have a particular problem, I think your system is laggy because you're running a lot of things at once and hitting the pagefile because memory is full.  You confirmed when you shut off generation that your CPU drops to 0%, so the CPU usage is definitely all idle priority.  There's nothing in the 0.3.1 that would affect these things.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: 0.3.1 release candidate, please test",
+    "original_date": "2010-07-15T17:56:43.000Z",
+    "chunk_index": 0,
+    "word_count": 68
+  },
+  {
+    "text": "Quote from: sirius-m on August 11, 2010, 02:01:53 AM\nI added to the FAQ the warning to back up after each transaction. Is it necessary btw to stop the client before making a backup? That's a bit inconvenient. Automatic backups would be useful indeed.\nYou can get away with backing up without stopping the client if you don't do anything or receive a payment within a few seconds before the backup.  (like 5 seconds) \nQuote from: gridecon on August 11, 2010, 08:46:08 PM\nWait, I'm confused again. I thought the essence of the surprise was that Bitcoin is programmed to \"empty your wallet\" for EACH transaction. \nNo, it doesn't usually empty your wallet with each transaction.  It uses the smallest set of coins it can find to add up to near the amount.  In this case, unfortunately, his wallet had a single 9000 BTC bill in it, and it had to break it to get 1 BTC and 8999 BTC change.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Lost large number of bitcoins",
+    "original_date": "2010-08-11T21:46:51.000Z",
+    "chunk_index": 0,
+    "word_count": 166
+  },
+  {
+    "text": "Quote from: knightmb on July 25, 2010, 07:44:02 PM\nIf I figure out that Public Key 123456 generates Hash ABCD\nand\nPublic Key 654321 also generates Hash ABCD\nI'm still left without the Private Key.\nBut from what you are saying, all I need is Public Key 654321 and I can spend coin pretending to be Public Key 123456.\nYou would still have to sign it with public key 654321.  You need to find a collision using a public key for which you know the private key.\nWhen you claim a Bitcoin Address transaction, you give your public key that matches the hash, then you must sign it with that key.\nRed's point is that it's easy to quickly generate insecure public keys which you could break and find the private key after you find a collision.\nHe points out that if the public key was required to be a secure one, one which must have required significant work to find the prime numbers, that would increase the strength above that of the hash function alone.  Someone trying to brute force would have to take time generating a key for each attempt.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: Stealing Coins",
+    "original_date": "2010-07-25T20:01:40.000Z",
+    "chunk_index": 0,
+    "word_count": 197
+  },
+  {
+    "text": "Can you provide more details about what removing DB_PRIVATE does?\nI can't remember if I had a specific reason for DB_PRIVATE, or if I just copied the flags from some example code.  Does removing DB_PRIVATE make it safe for other processes to open the database simultaneously?  That may be an improvement, depending what the side effects are.  Does it substantially reduce performance by making it have to write out every change immediately or do other coordination?  Are there additional locking or coordination files then?  What else changes?  You could test by timing an initial block download with and without DB_PRIVATE, preferably -connect-ing to a local machine so network isn't a factor.\nApparently, DB_PRIVATE doesn't do what you would hope it would do, which is prevent other processes from being able to open the database.  It still lets them, it just screws up if they do.  Another option, if there's a way, would be to make it lock the database files so they can't be accessed by other processes.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "Re: RFC: remove DB_PRIVATE flag",
+    "original_date": "2010-08-26T00:33:28.000Z",
+    "chunk_index": 0,
+    "word_count": 173
+  },
+  {
+    "text": "JSON-RPC programming tips using labels\n107\nFrom:\nsatoshi\nSubject:\nJSON-RPC programming tips using labels\nDate:\nMay 26, 2010 at 18:27:25 UTC\nI added label related functions to help with managing multiple addresses per user.  New or renamed functions are:\n getreceivedbyaddress -- amount received on a single address\n getreceivedbylabel -- amount received by all addresses with this label\n listreceivedbyaddress -- list addresses and amounts they've received\n listreceivedbylabel -- list labels and amounts they've received\n setlabel -- misc label functions for completeness\n getlabel\n getaddressesbylabel\nFor consistency I renamed getamountreceived->getreceivedbyaddress and getallreceived->listreceivedbyaddress.  The old names are still there so as not to break existing code, but they're deprecated.\nThe idea is that if you give the username whenever you call getnewaddress, you can get the user's total received across all their addresses using the \"bylabel\" functions.  You can freely change their address without worrying about tracking all their old addresses.\nA good way to automate changing the user's receiving address: just before displaying their current address, check if it has been used to receive anything, if it has then replace it with a new one:\n// Get a new address whenever the current one has received anything\nif (strAddr == \"\" || getreceivedbyaddress(strAddr) > 0)\n   strAddr = getnewaddress(strUsername); // Label the address with username\nDisplay(strAddr); // Display their current receiving address\n// Get total received by all the user's addresses\ngetreceivedbylabel(strUsername, 0) // unconfirmed\ngetreceivedbylabel(strUsername, 1) // available balance\nIf you're just getting one particular user's balance, such as in response to a page request by that user, use getreceivedbylabel, but if you're scanning over all users, it's better to use listreceivedbylabel to get the complete list and scan against the result.  Scanning users with getreceivedbylabel would be n-squared, using listreceivedbylabel is n-log-n (or n linear).\nYou should only really need to scan all users if you're polling in order to spontaneously take action in response to money received, rather than the user going to a webpage, seeing their balance and telling you what to do with it.  It's not necessary to poll very frequently.  If you require 1 confirmation, that'll take an average of 10 minutes anyway, so there's no point in polling more often than every few minutes.\nIf you're selling digital goods and services, where you don't lose much if someone gets a free access, and it can't be resold for profit, I think you're fine to accept 0 confirmations.\nIt's mostly only if you were selling gold or currency that you'd need multiple confirmations.\nView original\nView in thread",
+    "label": 1,
+    "label_name": "satoshi",
+    "source": "post_bitcointalk",
+    "original_title": "JSON-RPC programming tips using labels",
+    "original_date": "2010-05-26T18:27:25.000Z",
+    "chunk_index": 0,
+    "word_count": 420
+  }
+]
