@@ -126,7 +126,7 @@ def train():
     # Training args
     training_args = TrainingArguments(
         output_dir="/data/model",
-        num_train_epochs=10,
+        num_train_epochs=6,
         per_device_train_batch_size=16,
         per_device_eval_batch_size=32,
         learning_rate=2e-5,

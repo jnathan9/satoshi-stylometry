@@ -3,7 +3,7 @@
 import modal
 import os
 
-DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "processed")
+DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "v4_processed")
 
 vol = modal.Volume.from_name("satoshi-stylometry-data", create_if_missing=True)
 
