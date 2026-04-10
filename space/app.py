@@ -108,22 +108,13 @@ MODEL = Pipeline([
 ])
 MODEL.fit(X, all_labels)
 
-# Precomputed candidate scores (from real scraped texts)
-CANDIDATE_SCORES = {
-    "Satoshi Nakamoto (baseline)": {"mean": 89.6, "median": 88.8, "n": 417},
-    "Wei Dai": {"mean": 20.4, "median": 20.4, "n": 10},
-    "Hal Finney": {"mean": 16.3, "median": 9.1, "n": 112},
-    "Gavin Andresen": {"mean": 14.4, "median": 9.0, "n": 151},
-    "Nick Szabo": {"mean": 9.2, "median": 6.3, "n": 57},
-}
-
 # ============================================================
 # Inference
 # ============================================================
 
 def analyze(text):
     if not text or len(text.split()) < 20:
-        return "Please enter at least 20 words for meaningful analysis.", "", ""
+        return "Please enter at least 20 words for meaningful analysis.", ""
 
     word_count = len(text.split())
     features = extract_features(text)
@@ -159,46 +150,45 @@ def analyze(text):
 *Based on {word_count} words analyzed across 126 stylometric dimensions.*
 """
 
-    # Comparison with candidates
-    comparison = "### How this compares to known writers\n\n"
-    comparison += "| Writer | Mean Score | Texts Analyzed |\n|---|---|---|\n"
-
-    # Add the user's text
-    comparison += f"| **Your text** | **{score_pct:.1f}%** | **1** |\n"
-
-    for name, data in sorted(CANDIDATE_SCORES.items(), key=lambda x: -x[1]['mean']):
-        comparison += f"| {name} | {data['mean']:.1f}% | {data['n']} |\n"
-
-    comparison += "\n*Candidate scores computed on real scraped texts from BitcoinTalk, blogs, and mailing lists.*"
-
-    # Style fingerprint details
-    details = "### Style fingerprint breakdown\n\n"
-
-    # Key features compared to Satoshi's profile
-    sat_features = [extract_features(d['text']) for d in sat[:100]]  # sample for speed
+    # Style fingerprint breakdown
+    sat_features = [extract_features(d['text']) for d in sat[:100]]
     user_f = features
 
     comparisons = [
-        ("Contraction rate", "contraction_rate", "Satoshi uses contractions 62% more than his peers"),
-        ("Sentence length", "sent_mean", "Satoshi writes shorter sentences (avg 14 vs 17 words)"),
-        ("First person (I/me/my)", "first_person", "Satoshi uses 'I/me/my' 41% less than others"),
-        ("Conditional 'if'", "fw_if", "Satoshi uses 'if' 62% more - conditional reasoning"),
-        ("Hedging", "hedge_rate", "Words like 'think', 'believe', 'probably'"),
-        ("Comma rate", "punct_comma", "Punctuation density"),
+        ("Contraction rate", "contraction_rate", "don't, it's, can't, etc."),
+        ("Sentence length", "sent_mean", "avg words per sentence"),
+        ("First person (I/me/my)", "first_person", "self-referencing"),
+        ("Conditional 'if'", "fw_if", "conditional reasoning"),
+        ("Hedging", "hedge_rate", "think, believe, probably, etc."),
+        ("Comma rate", "punct_comma", "clause-separating commas"),
+        ("Parentheses", "punct_paren", "parenthetical asides"),
+        ("Second person (you/your)", "second_person", "addressing the reader"),
+        ("Vocabulary richness", "vocab_ttr", "unique words / total words"),
+        ("Word length", "word_mean_len", "avg characters per word"),
+        ("Dash rate", "punct_dash", "use of hyphens/dashes"),
+        ("Certainty markers", "certainty_rate", "definitely, always, never, etc."),
     ]
 
-    details += "| Feature | Your text | Satoshi avg | |\n|---|---|---|---|\n"
+    details = "### Style fingerprint\n\n"
+    details += "| Feature | Your text | Satoshi avg | Match |\n|---|---|---|---|\n"
     for label, key, note in comparisons:
         user_val = user_f.get(key, 0)
         sat_avg = np.mean([f.get(key, 0) for f in sat_features])
-        diff = abs(user_val - sat_avg)
-        match = "close" if diff < sat_avg * 0.3 else ("far" if diff > sat_avg * 0.7 else "moderate")
-        icon = {"close": "=", "moderate": "~", "far": "!="}[match]
+        if sat_avg > 0.0001:
+            ratio = user_val / sat_avg
+            if 0.7 <= ratio <= 1.3:
+                icon = "Close"
+            elif 0.4 <= ratio <= 1.6:
+                icon = "~"
+            else:
+                icon = "Far"
+        else:
+            icon = "Close" if user_val < 0.001 else "Far"
         details += f"| {label} | {user_val:.4f} | {sat_avg:.4f} | {icon} |\n"
 
-    details += f"\n*{note}*"
+    details += "\n*Close = within 30% of Satoshi's average. Features measured per word.*"
 
-    return result, comparison, details
+    return result, details
 
 
 # ============================================================
@@ -240,16 +230,12 @@ with gr.Blocks(
         with gr.Column(scale=1):
             result_output = gr.Markdown(label="Score")
 
-    with gr.Row():
-        with gr.Column():
-            comparison_output = gr.Markdown(label="Comparison")
-        with gr.Column():
-            details_output = gr.Markdown(label="Style Details")
+    details_output = gr.Markdown(label="Style Fingerprint")
 
     gr.Examples(examples=EXAMPLES, inputs=text_input)
 
-    submit_btn.click(fn=analyze, inputs=text_input, outputs=[result_output, comparison_output, details_output])
-    text_input.submit(fn=analyze, inputs=text_input, outputs=[result_output, comparison_output, details_output])
+    submit_btn.click(fn=analyze, inputs=text_input, outputs=[result_output, details_output])
+    text_input.submit(fn=analyze, inputs=text_input, outputs=[result_output, details_output])
 
     gr.HTML("""
         <div style="margin-top: 2em; padding-top: 1em; border-top: 1px solid #ddd; color: #888; font-size: 0.85em; text-align: center;">
